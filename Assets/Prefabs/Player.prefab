@@ -139,7 +139,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 11fabfa962c137942aa5443785aad5b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  controllerNumber: C1_
+  controllerNumber: 
 --- !u!136 &13601878
 CapsuleCollider:
   m_ObjectHideFlags: 1
