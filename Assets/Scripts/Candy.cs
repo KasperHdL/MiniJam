@@ -15,13 +15,13 @@ public class Candy : MonoBehaviour {
 	void Update () {
 	
 	}
-
-	void OnCollisionEnter(Collision collision){
-		Debug.Log("Collision");
-		//play sound
-		AudioSource.PlayClipAtPoint(pickUpCandySound, transform.position);
-		//destroy
-		gameObject.SetActive (false);
+	void OnTriggerEnter(Collider other){
+		if (other.gameObject.tag == "Player"){
+			//play sound
+			AudioSource.PlayClipAtPoint(pickUpCandySound, transform.position);
+			//destroy
+			gameObject.SetActive (false);
+		}
 	}
 }
 
