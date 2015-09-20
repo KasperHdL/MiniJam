@@ -19,7 +19,7 @@ public class Candy : MonoBehaviour {
 			//destroy
 			gameObject.SetActive (false);
 			//increase player1 weight
-			cb.weightPlayer1+=0.5F;
+			cb.weightPlayer1+=1F;
 		}
 		else if(other.gameObject.tag == "Player2"){
 			//play sound
@@ -27,7 +27,7 @@ public class Candy : MonoBehaviour {
 			//destroy
 			gameObject.SetActive (false);
 			//increase player2 weight
-			cb.weightPlayer2+=0.5F;
+			cb.weightPlayer2+=1F;
 		}
 		else if(other.gameObject.tag == "Player3"){
 			//play sound
@@ -35,7 +35,7 @@ public class Candy : MonoBehaviour {
 			//destroy
 			gameObject.SetActive (false);
 			//increase player3 weight
-			cb.weightPlayer3+=0.5F;
+			cb.weightPlayer3+=1F;
 		}
 		else if(other.gameObject.tag == "Player4"){
 			//play sound
@@ -43,7 +43,7 @@ public class Candy : MonoBehaviour {
 			//destroy
 			gameObject.SetActive (false);
 			//increase player4 weight
-			cb.weightPlayer4+=0.5F;
+			cb.weightPlayer4+=1F;
 		}
 	}
 }
