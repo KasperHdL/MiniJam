@@ -18,6 +18,7 @@ public class MonsterSpawner : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
+
 		nextSpawn = Time.time + spawnDelay;
 	}
 	
