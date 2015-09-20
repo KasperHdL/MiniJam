@@ -14,6 +14,9 @@ public class Controller : MonoBehaviour {
 	//Candy projectile prefab
 	public GameObject candyProjectile;
 
+	private float nextShot;
+	private float shotDelay = 0.5f;
+
 
 	// Use this for initialization
 	void Start () {
@@ -39,16 +42,14 @@ public class Controller : MonoBehaviour {
 
 		//Character rotation. Speed controlled by "turnSpeed"
 		transform.Rotate(Vector3.up, (Input.GetAxis(controllerNumber + "ViewX") * -1) * turnSpeed * Time.deltaTime, Space.Self);
-
-
+		
 		//Throwing Candy
-		if(Input.GetButton(controllerNumber + "Fire1")) {
+		if(nextShot < Time.time && (Input.GetAxis(controllerNumber + "Fire1") < 0)) {
 			//if(candy <=0) not abble to throw candy
-			Instantiate(candyProjectile, transform.position, Quaternion.identity);
-
+			Rigidbody ins = Instantiate(candyProjectile, transform.position + (transform.forward*2), Quaternion.identity) as Rigidbody;
+			ins.AddForce(transform.forward * 35, ForceMode.VelocityChange);
+			nextShot = Time.time + shotDelay;
 		}
 
-
-		
 	}
 }
