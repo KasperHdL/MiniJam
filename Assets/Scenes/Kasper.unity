@@ -246,9 +246,89 @@ Prefab:
       propertyPath: m_TagString
       value: Player2
       objectReference: {fileID: 0}
+    - target: {fileID: 168058, guid: 1a42e63b70d5d0446b60edeac5c24a38, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 117822, guid: 1a42e63b70d5d0446b60edeac5c24a38, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 159332, guid: 1a42e63b70d5d0446b60edeac5c24a38, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
   m_ParentPrefab: {fileID: 100100000, guid: 1a42e63b70d5d0446b60edeac5c24a38, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1 &255858488 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 117822, guid: 1a42e63b70d5d0446b60edeac5c24a38, type: 2}
+  m_PrefabInternal: {fileID: 197941702}
+--- !u!114 &255858489
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 255858488}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8018cb837c3414efea2afe094052ecb2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controllerName: C2_
+  prefabStun: {fileID: 0}
+  stunBombForce: 0
+--- !u!1001 &300521565
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 498590, guid: 6fdedf95da1714b378aaa0bd15a9274c, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 11.9099998
+      objectReference: {fileID: 0}
+    - target: {fileID: 498590, guid: 6fdedf95da1714b378aaa0bd15a9274c, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 1.01699996
+      objectReference: {fileID: 0}
+    - target: {fileID: 498590, guid: 6fdedf95da1714b378aaa0bd15a9274c, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 9.77999973
+      objectReference: {fileID: 0}
+    - target: {fileID: 498590, guid: 6fdedf95da1714b378aaa0bd15a9274c, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 498590, guid: 6fdedf95da1714b378aaa0bd15a9274c, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 498590, guid: 6fdedf95da1714b378aaa0bd15a9274c, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 498590, guid: 6fdedf95da1714b378aaa0bd15a9274c, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 498590, guid: 6fdedf95da1714b378aaa0bd15a9274c, type: 2}
+      propertyPath: m_RootOrder
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 11415332, guid: 6fdedf95da1714b378aaa0bd15a9274c, type: 2}
+      propertyPath: blowDelay
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 11415332, guid: 6fdedf95da1714b378aaa0bd15a9274c, type: 2}
+      propertyPath: blowLength
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 6fdedf95da1714b378aaa0bd15a9274c, type: 2}
   m_IsPrefabParent: 0
 --- !u!1 &320535540
 GameObject:
@@ -381,6 +461,18 @@ Prefab:
     - target: {fileID: 117822, guid: 1a42e63b70d5d0446b60edeac5c24a38, type: 2}
       propertyPath: m_TagString
       value: Player1
+      objectReference: {fileID: 0}
+    - target: {fileID: 168058, guid: 1a42e63b70d5d0446b60edeac5c24a38, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 117822, guid: 1a42e63b70d5d0446b60edeac5c24a38, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 159332, guid: 1a42e63b70d5d0446b60edeac5c24a38, type: 2}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1a42e63b70d5d0446b60edeac5c24a38, type: 2}
@@ -658,6 +750,18 @@ Prefab:
       propertyPath: m_TagString
       value: Player3
       objectReference: {fileID: 0}
+    - target: {fileID: 168058, guid: 1a42e63b70d5d0446b60edeac5c24a38, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 117822, guid: 1a42e63b70d5d0446b60edeac5c24a38, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 159332, guid: 1a42e63b70d5d0446b60edeac5c24a38, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1a42e63b70d5d0446b60edeac5c24a38, type: 2}
   m_IsPrefabParent: 0
@@ -703,6 +807,10 @@ Prefab:
     - target: {fileID: 161324, guid: 7dd19dce55ca4964883cd4bed9859419, type: 2}
       propertyPath: m_Name
       value: CandyBagPlayer4
+      objectReference: {fileID: 0}
+    - target: {fileID: 161324, guid: 7dd19dce55ca4964883cd4bed9859419, type: 2}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7dd19dce55ca4964883cd4bed9859419, type: 2}
@@ -980,6 +1088,18 @@ Prefab:
       propertyPath: m_TagString
       value: Player4
       objectReference: {fileID: 0}
+    - target: {fileID: 168058, guid: 1a42e63b70d5d0446b60edeac5c24a38, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 117822, guid: 1a42e63b70d5d0446b60edeac5c24a38, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 159332, guid: 1a42e63b70d5d0446b60edeac5c24a38, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1a42e63b70d5d0446b60edeac5c24a38, type: 2}
   m_IsPrefabParent: 0
@@ -1026,6 +1146,10 @@ Prefab:
       propertyPath: m_Name
       value: CandyBagPlayer1
       objectReference: {fileID: 0}
+    - target: {fileID: 161324, guid: 7dd19dce55ca4964883cd4bed9859419, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7dd19dce55ca4964883cd4bed9859419, type: 2}
   m_IsPrefabParent: 0
@@ -1069,6 +1193,42 @@ MonoBehaviour:
   WeightPlayer2: {fileID: 2800000, guid: 0e4251807d3d1b4448e59d787a23b526, type: 3}
   WeightPlayer3: {fileID: 2800000, guid: 306392e75a2551045b7acaa3724d5927, type: 3}
   WeightPlayer4: {fileID: 2800000, guid: f0db7c76b1cb52f40aeeeb2705edccf5, type: 3}
+--- !u!1 &1554340917 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 117822, guid: 1a42e63b70d5d0446b60edeac5c24a38, type: 2}
+  m_PrefabInternal: {fileID: 807564470}
+--- !u!114 &1554340918
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1554340917}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8018cb837c3414efea2afe094052ecb2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controllerName: C3_
+  prefabStun: {fileID: 0}
+  stunBombForce: 0
+--- !u!1 &1597162803 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 117822, guid: 1a42e63b70d5d0446b60edeac5c24a38, type: 2}
+  m_PrefabInternal: {fileID: 1309198870}
+--- !u!114 &1597162804
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1597162803}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8018cb837c3414efea2afe094052ecb2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controllerName: C4_
+  prefabStun: {fileID: 0}
+  stunBombForce: 0
 --- !u!1 &1628773484
 GameObject:
   m_ObjectHideFlags: 0
@@ -1256,6 +1416,24 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 6bab90d6b42124a7cb035297a27ca692, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &1759783306 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 117822, guid: 1a42e63b70d5d0446b60edeac5c24a38, type: 2}
+  m_PrefabInternal: {fileID: 341933688}
+--- !u!114 &1759783307
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1759783306}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8018cb837c3414efea2afe094052ecb2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controllerName: C1_
+  prefabStun: {fileID: 0}
+  stunBombForce: 0
 --- !u!1001 &1940141098
 Prefab:
   m_ObjectHideFlags: 0
@@ -1298,6 +1476,10 @@ Prefab:
     - target: {fileID: 161324, guid: 7dd19dce55ca4964883cd4bed9859419, type: 2}
       propertyPath: m_Name
       value: CandyBagPlayer3
+      objectReference: {fileID: 0}
+    - target: {fileID: 161324, guid: 7dd19dce55ca4964883cd4bed9859419, type: 2}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7dd19dce55ca4964883cd4bed9859419, type: 2}
@@ -1360,6 +1542,10 @@ Prefab:
     - target: {fileID: 161324, guid: 7dd19dce55ca4964883cd4bed9859419, type: 2}
       propertyPath: m_Name
       value: CandyBagPlayer2
+      objectReference: {fileID: 0}
+    - target: {fileID: 161324, guid: 7dd19dce55ca4964883cd4bed9859419, type: 2}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7dd19dce55ca4964883cd4bed9859419, type: 2}
