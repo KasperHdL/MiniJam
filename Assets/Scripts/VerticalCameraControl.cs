@@ -5,7 +5,6 @@ public class VerticalCameraControl : MonoBehaviour {
 
 	public string controllerNumber;
 	private float turnSpeed = 80.0F;
-	private Vector3 viewDirection = Vector3.zero;
 
 	// Use this for initialization
 	void Start () {
