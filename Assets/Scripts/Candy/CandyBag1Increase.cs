@@ -14,6 +14,6 @@ public class CandyBag1Increase : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		transform.position = new Vector3(GameObject.FindGameObjectWithTag("Player1").transform.position.x,GameObject.FindGameObjectWithTag("Player1").transform.position.y, GameObject.FindGameObjectWithTag("Player1").transform.position.z);
-		transform.localScale = new Vector3(0.5F+cb.weightPlayer1,1+cb.weightPlayer1,0.5F+cb.weightPlayer1);
+		transform.localScale = new Vector3((0.5F+cb.weightPlayer1)/15,(1+cb.weightPlayer1)/15,(0.5F+cb.weightPlayer1)/15);
 	}
 }
