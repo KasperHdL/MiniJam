@@ -11,6 +11,7 @@ GameObject:
   - 33: {fileID: 3313206}
   - 23: {fileID: 2305146}
   - 114: {fileID: 11416710}
+  - 114: {fileID: 11463174}
   m_Layer: 0
   m_Name: candyPiece1
   m_TagString: Untagged
@@ -25,7 +26,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 129570}
   m_LocalRotation: {x: -4.32978063e-17, y: .707106829, z: .707106829, w: -4.32978063e-17}
-  m_LocalPosition: {x: -26.948, y: .419, z: -6.3579998}
+  m_LocalPosition: {x: 2.06999993, y: 1.99000001, z: -3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -76,13 +77,30 @@ MonoBehaviour:
   - {fileID: 2800000, guid: 76bc0fbd1224a4b2c8c4843257dcb638, type: 3}
   - {fileID: 2800000, guid: 5f2122e1d6e14434981ad51df3de46c3, type: 3}
   - {fileID: 2800000, guid: e6995c4b17cff481da96e267f4d108b2, type: 3}
+--- !u!114 &11463174
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 129570}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 733fdf93ad85ccc4bab30989d21a648d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pickUpCandySound: {fileID: 8300000, guid: ceb9a714e1052884e86fd36c54601cb9, type: 3}
+  cb: {fileID: 0}
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 0}
-    m_Modifications: []
+    m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: pickUpCandySound
+      value: 
+      objectReference: {fileID: 8300000, guid: ceb9a714e1052884e86fd36c54601cb9, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 129570}

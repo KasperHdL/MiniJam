@@ -9,9 +9,8 @@ GameObject:
   m_Component:
   - 4: {fileID: 451078}
   - 33: {fileID: 3314520}
-  - 65: {fileID: 6584466}
   - 23: {fileID: 2322800}
-  - 54: {fileID: 5497286}
+  - 114: {fileID: 11475904}
   - 114: {fileID: 11461668}
   m_Layer: 0
   m_Name: CandyPiece
@@ -26,8 +25,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 136454}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -.40160656, y: 1.00184155, z: -.299678802}
+  m_LocalRotation: {x: .50000006, y: .49999997, z: .5, w: .500000119}
+  m_LocalPosition: {x: -1.21000004, y: .74000001, z: -5.07999992}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -42,14 +41,14 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: dfd4300ae085041b1968c6bc9b560a6d, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 1
   m_ReflectionProbeUsage: 1
   m_ProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_PreserveUVs: 1
+  m_PreserveUVs: 0
   m_ImportantGI: 0
   m_AutoUVMaxDistance: .5
   m_AutoUVMaxAngle: 89
@@ -62,34 +61,7 @@ MeshFilter:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 136454}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!54 &5497286
-Rigidbody:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 136454}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: .0500000007
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 126
-  m_CollisionDetection: 0
---- !u!65 &6584466
-BoxCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 136454}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Mesh: {fileID: 4300000, guid: 5e6ea0e9dc1844a69b8b9430a2b86283, type: 3}
 --- !u!114 &11461668
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -101,7 +73,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 733fdf93ad85ccc4bab30989d21a648d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pickUpCandySound: {fileID: 8300000, guid: 10a77c9c774e0454daa0a7a595cf186d, type: 3}
+  pickUpCandySound: {fileID: 8300000, guid: ceb9a714e1052884e86fd36c54601cb9, type: 3}
+  cb: {fileID: 0}
+--- !u!114 &11475904
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 136454}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac1d242aaa0fc4363b0994beb4c3b3db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  possibleTextures:
+  - {fileID: 2800000, guid: 8ed0f0e95d7cf43eda39df0f009a7b3e, type: 3}
+  - {fileID: 2800000, guid: 310ba9e35bb7841ebb6b8eea65623a02, type: 3}
+  - {fileID: 2800000, guid: 4f6f869bbe3464e2d84f43758fe5dadb, type: 3}
+  - {fileID: 2800000, guid: fa23d33023c7347e0b53563f46ae64e6, type: 3}
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1
