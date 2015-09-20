@@ -26,17 +26,25 @@ public class CandyBag : MonoBehaviour {
 	}
 
 	public int GetWhoIsWinning() {
-		int score = 0;
+		float score = 0;
 		int p = 0;
 
-		if (weightPlayer1 > score)
+		if (weightPlayer1 > score) {
+			score = weightPlayer1;
 			p = 1;
-		if (weightPlayer2 > score) 
+		}
+		if (weightPlayer2 > score) {
+			score = weightPlayer2;
 			p = 2;
-		if (weightPlayer3 > score)
+		}
+		if (weightPlayer3 > score) {
+			score = weightPlayer3;
 			p = 3;
-		if (weightPlayer4 > score) 
+		}
+		if (weightPlayer4 > score) {
+			score = weightPlayer4;
 			p = 4;
+		}
 
 		return p;
 	}

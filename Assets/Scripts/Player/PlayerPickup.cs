@@ -25,7 +25,7 @@ public class PlayerPickup : MonoBehaviour {
 
 
 	public void ThrowStun(){
-		GameObject g = Instantiate(prefabStun,transform.position,Quaternion.identity) as GameObject;
+		GameObject g = Instantiate(prefabStun,transform.position +(transform.forward*2),Quaternion.identity) as GameObject;
 		
 		g.GetComponent<Rigidbody>().AddForce(transform.forward * stunBombForce);
 
