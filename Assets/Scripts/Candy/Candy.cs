@@ -16,11 +16,19 @@ public class Candy : MonoBehaviour {
 	
 	}
 	void OnTriggerEnter(Collider other){
-		if (other.gameObject.tag == "Player"){
+		if (other.gameObject.tag == "Player1"){
 			//play sound
 			AudioSource.PlayClipAtPoint(pickUpCandySound, transform.position);
 			//destroy
 			gameObject.SetActive (false);
+			//increase player1 weight
+		}
+		else if(other.gameObject.tag == "Player2"){
+			//play sound
+			AudioSource.PlayClipAtPoint(pickUpCandySound, transform.position);
+			//destroy
+			gameObject.SetActive (false);
+			//increase player2 weight
 		}
 	}
 }
