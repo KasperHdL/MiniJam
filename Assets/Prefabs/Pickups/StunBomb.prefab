@@ -90,8 +90,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   blowTime: 0
-  blowDelay: 10
-  blowLength: 0
+  blowDelay: 5
+  blowLength: 1
   blowingUp: 0
   coll: {fileID: 13519964}
 --- !u!135 &13519964
