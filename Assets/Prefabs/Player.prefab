@@ -29,6 +29,7 @@ GameObject:
   - 4: {fileID: 411804}
   - 20: {fileID: 2052330}
   - 81: {fileID: 8176698}
+  - 114: {fileID: 11467742}
   m_Layer: 0
   m_Name: MainCamera
   m_TagString: MainCamera
@@ -75,7 +76,7 @@ Camera:
     serializedVersion: 2
     x: 0
     y: .5
-    width: 1
+    width: .5
     height: .5
   near clip plane: .300000012
   far clip plane: 1000
@@ -124,6 +125,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b8b5017f1cb724e41b414a9c6f3be7b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controllerNumber: 
+--- !u!114 &11467742
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 168058}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11fabfa962c137942aa5443785aad5b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   controllerNumber: C1_

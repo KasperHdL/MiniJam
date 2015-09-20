@@ -9,7 +9,6 @@ public class Controller : MonoBehaviour {
 	private float gravity = 20.0F;
 	private float turnSpeed = 80.0F; 
 	private Vector3 moveDirection = Vector3.zero;
-	private Vector3 viewDirection = Vector3.zero;
 	private CharacterController controller;
 
 
@@ -21,8 +20,7 @@ public class Controller : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-
-
+		
 		//Horizontal and Vertical movement (forward, backward, strafe left & right)
 		if (controller.isGrounded) {
 			moveDirection = new Vector3(Input.GetAxis(controllerNumber + "Horizontal"), 0, Input.GetAxis(controllerNumber + "Vertical"));
@@ -31,15 +29,13 @@ public class Controller : MonoBehaviour {
 			//Jumping
 			if (Input.GetButton(controllerNumber + "Jump"))
 				moveDirection.y = jumpSpeed;
-			}
+		}
 
 		moveDirection.y -= gravity * Time.deltaTime;
 		controller.Move(moveDirection * Time.deltaTime);
 
-		//Character rotation
-		viewDirection = new Vector3(Input.GetAxis(controllerNumber + "ViewX"), 0, Input.GetAxis(controllerNumber + "ViewY"));
-		//transform.Rotate(viewDirection * turnSpeed * Time.deltaTime, Space.Self);
+		//Character rotation. Speed controlled by "turnSpeed"
 		transform.Rotate(Vector3.up, (Input.GetAxis(controllerNumber + "ViewX") * -1) * turnSpeed * Time.deltaTime, Space.Self);
-
+		
 	}
 }
