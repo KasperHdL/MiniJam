@@ -10,6 +10,7 @@ GameObject:
   - 4: {fileID: 417124}
   - 33: {fileID: 3313206}
   - 23: {fileID: 2305146}
+  - 114: {fileID: 11416710}
   m_Layer: 0
   m_Name: candyPiece1
   m_TagString: Untagged
@@ -60,6 +61,21 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 129570}
   m_Mesh: {fileID: 4300000, guid: a19999303fb854f599d7ab25a62cbe67, type: 3}
+--- !u!114 &11416710
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 129570}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac1d242aaa0fc4363b0994beb4c3b3db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  possibleTextures:
+  - {fileID: 2800000, guid: 76bc0fbd1224a4b2c8c4843257dcb638, type: 3}
+  - {fileID: 2800000, guid: 5f2122e1d6e14434981ad51df3de46c3, type: 3}
+  - {fileID: 2800000, guid: e6995c4b17cff481da96e267f4d108b2, type: 3}
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1
