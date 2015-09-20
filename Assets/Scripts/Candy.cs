@@ -4,7 +4,7 @@ using System.Collections;
 public class Candy : MonoBehaviour {
 
 	//load sound of picking up candy
-	//public AudioClip pickUpCandySound;
+	public AudioClip pickUpCandySound;
 
 	// Use this for initialization
 	void Start () {
@@ -19,7 +19,7 @@ public class Candy : MonoBehaviour {
 	void OnCollisionEnter(Collision collision){
 		Debug.Log("Collision");
 		//play sound
-		//AudioSource.PlayClipAtPoint(pickUpCandySound, transform.position);
+		AudioSource.PlayClipAtPoint(pickUpCandySound, transform.position);
 		//destroy
 		gameObject.SetActive (false);
 	}
