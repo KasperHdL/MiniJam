@@ -10,15 +10,22 @@ public class MonsterAI : MonoBehaviour {
 	public AICharacterControl steering;
 
 
+	public CandyBag candybag;
+
 	public bool isChasing;
 
 
 	public float chaseEngageDistance;
 	public float chaseDisengageDistance;
 
+	public float attackDistance;
+
 
 	private bool isStunned = false;
 	private float stopBeingStunned;
+
+	private float nextAttack;
+	public float attackDelay;
 
 
 	// Update is called once per frame
@@ -34,7 +41,7 @@ public class MonsterAI : MonoBehaviour {
 			}
 		}else{
 
-
+			int i = 0;
 			foreach(Transform player in PlayerHandler.PLAYERS){
 				Vector3 delta = player.position - transform.position;
 
@@ -42,9 +49,20 @@ public class MonsterAI : MonoBehaviour {
 					//raycast to player, is he visible to monster
 
 					if (! Physics.Linecast(transform.position, player.position,1<<8)) {
-
+						
 						isChasing = true;
 						steering.target = player;
+
+						if(nextAttack < Time.time && delta.magnitude < attackDistance){
+							switch(i){
+								case 0:candybag.weightPlayer1 -= 1f;break;
+								case 1:candybag.weightPlayer2 -= 1f;break;
+								case 2:candybag.weightPlayer3 -= 1f;break;
+								case 3:candybag.weightPlayer4 -= 1f;break;
+							}
+
+							nextAttack = Time.time + attackDelay;
+						}
 					}
 
 
