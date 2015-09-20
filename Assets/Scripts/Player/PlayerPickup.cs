@@ -4,8 +4,10 @@ using System.Collections;
 public class PlayerPickup : MonoBehaviour {
 
 	public string controllerName;
-	Type currentPickup;
+	bool hasPickup;
 
+	public GameObject prefabStun;
+	public float stunBombForce;
 
 	// Use this for initialization
 	void Start () {
@@ -14,19 +16,23 @@ public class PlayerPickup : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if(currentPickup != Type.None && Input.GetButtonDown(controllerName + "Fire2")){
-
+		if(hasPickup && Input.GetButtonDown(controllerName + "Fire2")){
+			
+				ThrowStun();
+				hasPickup = false;
 		}
 	}
 
 
-	public void SetPickup(PlayerPickup.Type pickup){
-		currentPickup = pickup;
+	public void ThrowStun(){
+		GameObject g = Instantiate(prefabStun,transform.position,Quaternion.identity) as GameObject;
+		
+		g.GetComponent<Rigidbody>().AddForce(transform.forward * stunBombForce);
+
 	}
 
-	public enum Type{
-		None,
-		Stun
+	public void SetPickup(){
+		hasPickup = true;
 	}
 
 }

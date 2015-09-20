@@ -246,6 +246,18 @@ Prefab:
       propertyPath: m_TagString
       value: Player2
       objectReference: {fileID: 0}
+    - target: {fileID: 168058, guid: 1a42e63b70d5d0446b60edeac5c24a38, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 117822, guid: 1a42e63b70d5d0446b60edeac5c24a38, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 159332, guid: 1a42e63b70d5d0446b60edeac5c24a38, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
   m_ParentPrefab: {fileID: 100100000, guid: 1a42e63b70d5d0446b60edeac5c24a38, type: 2}
@@ -381,6 +393,18 @@ Prefab:
     - target: {fileID: 117822, guid: 1a42e63b70d5d0446b60edeac5c24a38, type: 2}
       propertyPath: m_TagString
       value: Player1
+      objectReference: {fileID: 0}
+    - target: {fileID: 168058, guid: 1a42e63b70d5d0446b60edeac5c24a38, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 117822, guid: 1a42e63b70d5d0446b60edeac5c24a38, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 159332, guid: 1a42e63b70d5d0446b60edeac5c24a38, type: 2}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1a42e63b70d5d0446b60edeac5c24a38, type: 2}
@@ -658,6 +682,18 @@ Prefab:
       propertyPath: m_TagString
       value: Player3
       objectReference: {fileID: 0}
+    - target: {fileID: 168058, guid: 1a42e63b70d5d0446b60edeac5c24a38, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 117822, guid: 1a42e63b70d5d0446b60edeac5c24a38, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 159332, guid: 1a42e63b70d5d0446b60edeac5c24a38, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1a42e63b70d5d0446b60edeac5c24a38, type: 2}
   m_IsPrefabParent: 0
@@ -703,6 +739,10 @@ Prefab:
     - target: {fileID: 161324, guid: 7dd19dce55ca4964883cd4bed9859419, type: 2}
       propertyPath: m_Name
       value: CandyBagPlayer4
+      objectReference: {fileID: 0}
+    - target: {fileID: 161324, guid: 7dd19dce55ca4964883cd4bed9859419, type: 2}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7dd19dce55ca4964883cd4bed9859419, type: 2}
@@ -980,6 +1020,18 @@ Prefab:
       propertyPath: m_TagString
       value: Player4
       objectReference: {fileID: 0}
+    - target: {fileID: 168058, guid: 1a42e63b70d5d0446b60edeac5c24a38, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 117822, guid: 1a42e63b70d5d0446b60edeac5c24a38, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 159332, guid: 1a42e63b70d5d0446b60edeac5c24a38, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1a42e63b70d5d0446b60edeac5c24a38, type: 2}
   m_IsPrefabParent: 0
@@ -1025,6 +1077,10 @@ Prefab:
     - target: {fileID: 161324, guid: 7dd19dce55ca4964883cd4bed9859419, type: 2}
       propertyPath: m_Name
       value: CandyBagPlayer1
+      objectReference: {fileID: 0}
+    - target: {fileID: 161324, guid: 7dd19dce55ca4964883cd4bed9859419, type: 2}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7dd19dce55ca4964883cd4bed9859419, type: 2}
@@ -1295,6 +1351,10 @@ Prefab:
       propertyPath: m_Name
       value: CandyBagPlayer3
       objectReference: {fileID: 0}
+    - target: {fileID: 161324, guid: 7dd19dce55ca4964883cd4bed9859419, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7dd19dce55ca4964883cd4bed9859419, type: 2}
   m_IsPrefabParent: 0
@@ -1356,6 +1416,10 @@ Prefab:
     - target: {fileID: 161324, guid: 7dd19dce55ca4964883cd4bed9859419, type: 2}
       propertyPath: m_Name
       value: CandyBagPlayer2
+      objectReference: {fileID: 0}
+    - target: {fileID: 161324, guid: 7dd19dce55ca4964883cd4bed9859419, type: 2}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7dd19dce55ca4964883cd4bed9859419, type: 2}

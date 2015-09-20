@@ -5,6 +5,7 @@ public class Controller : MonoBehaviour {
 
 	public string controllerNumber;
 	private float speed = 6.0F;
+	public float curSpeed;
 	private float jumpSpeed = 8.0F;
 	private float gravity = 20.0F;
 	private float turnSpeed = 80.0F; 
@@ -17,21 +18,25 @@ public class Controller : MonoBehaviour {
 	private float shotDelay = .5f;
 	private float nextShot;
 
+	private float stunEnd;
+
 
 	// Use this for initialization
 	void Start () {
 		controller = GetComponent<CharacterController>();
+		curSpeed = speed;
 		
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		
+		if(stunEnd < Time.time)
+			curSpeed = speed;
 		//Horizontal and Vertical movement (forward, backward, strafe left & right)
 		if (controller.isGrounded) {
 			moveDirection = new Vector3(Input.GetAxis(controllerNumber + "Horizontal"), 0, Input.GetAxis(controllerNumber + "Vertical"));
 			moveDirection = transform.TransformDirection(moveDirection);
-			moveDirection *= speed;
+			moveDirection *= curSpeed;
 			//Jumping
 			if (Input.GetButton(controllerNumber + "Jump"))
 				moveDirection.y = jumpSpeed;
@@ -56,5 +61,11 @@ public class Controller : MonoBehaviour {
 
 
 		
+	}
+
+
+	public void Stun(float time){
+		stunEnd = Time.time + time;
+		curSpeed = 0f;
 	}
 }

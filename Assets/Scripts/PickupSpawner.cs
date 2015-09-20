@@ -37,6 +37,9 @@ public class PickupSpawner : MonoBehaviour {
 	void OnTriggerEnter(Collider other){
 
 		if(pickup != null){
+			if(other.gameObject.layer == 9){
+				other.gameObject.GetComponent<PlayerPickup>().SetPickup();
+			}
 			Destroy(pickup.gameObject);
 			particles.Play();
 			nextPickup = Time.time + spawnDelay;
