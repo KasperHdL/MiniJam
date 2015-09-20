@@ -10,6 +10,7 @@ GameObject:
   - 4: {fileID: 444154}
   - 33: {fileID: 3305228}
   - 23: {fileID: 2350066}
+  - 114: {fileID: 11493976}
   m_Layer: 0
   m_Name: candyPiece2
   m_TagString: Untagged
@@ -24,7 +25,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 166502}
   m_LocalRotation: {x: .50000006, y: .49999997, z: .5, w: .500000119}
-  m_LocalPosition: {x: -27.5510006, y: .741999984, z: -5.07800007}
+  m_LocalPosition: {x: -1.21000004, y: .74000001, z: -5.07999992}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -60,6 +61,22 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 166502}
   m_Mesh: {fileID: 4300000, guid: 5e6ea0e9dc1844a69b8b9430a2b86283, type: 3}
+--- !u!114 &11493976
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 166502}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac1d242aaa0fc4363b0994beb4c3b3db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  possibleTextures:
+  - {fileID: 2800000, guid: 8ed0f0e95d7cf43eda39df0f009a7b3e, type: 3}
+  - {fileID: 2800000, guid: 310ba9e35bb7841ebb6b8eea65623a02, type: 3}
+  - {fileID: 2800000, guid: 4f6f869bbe3464e2d84f43758fe5dadb, type: 3}
+  - {fileID: 2800000, guid: fa23d33023c7347e0b53563f46ae64e6, type: 3}
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1
