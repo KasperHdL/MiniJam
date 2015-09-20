@@ -7,9 +7,6 @@ TagManager:
   - Player1
   - Player2
   - CandyBag1
-  - Monster
-  - Player3
-  - Player4
   layers:
   - Default
   - TransparentFX

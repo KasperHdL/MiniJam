@@ -66,6 +66,7 @@ public class MonsterAI : MonoBehaviour {
 	public void Stun(float time){
 		stopBeingStunned = Time.time + time;
 		isStunned = true;
+		isChasing = false;
 		steering.target = null;
 	}
 }

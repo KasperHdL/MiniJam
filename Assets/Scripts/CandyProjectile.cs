@@ -20,9 +20,10 @@ public class CandyProjectile : MonoBehaviour {
 	void OnCollisionEnter (Collision col) {
 		if(col.gameObject.tag == "Monster") { 
 			col.gameObject.GetComponent<MonsterAI>().Stun(1.0f);
-			Debug.Log("Hello");
 		}
-
+		if(col.gameObject.tag == "Player") { 
+			
+		}
 		Destroy (gameObject);
 	}
 }
