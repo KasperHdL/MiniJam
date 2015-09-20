@@ -12,7 +12,7 @@ public class Controller : MonoBehaviour {
 	private CharacterController controller;
 
 	//Candy projectile prefab
-	public Rigidbody candyProjectile;
+	public GameObject candyProjectile;
 
 
 	// Use this for initialization
@@ -42,7 +42,9 @@ public class Controller : MonoBehaviour {
 
 
 		//Throwing Candy
-		if(Input.GetKeyDown(controllerNumber + "Fire1")) {
+		if(Input.GetButton(controllerNumber + "Fire1")) {
+			//if(candy <=0) not abble to throw candy
+			Instantiate(candyProjectile, transform.position, Quaternion.identity);
 
 		}
 
