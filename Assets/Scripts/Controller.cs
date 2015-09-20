@@ -20,6 +20,8 @@ public class Controller : MonoBehaviour {
 
 	private float stunEnd;
 
+	public CandyBag candybag;
+
 
 	// Use this for initialization
 	void Start () {
@@ -48,19 +50,39 @@ public class Controller : MonoBehaviour {
 		//Character rotation. Speed controlled by "turnSpeed"
 		transform.Rotate(Vector3.up, (Input.GetAxis(controllerNumber + "ViewX") * -1) * turnSpeed * Time.deltaTime, Space.Self);
 
-
-		//Throwing Candy
 		if(nextShot < Time.time && (Input.GetAxis(controllerNumber + "Fire1") < 0)) {
+			if(controllerNumber == "C1_" && candybag.weightPlayer1 >= 1f){
+				candybag.weightPlayer1 -= 1f;
+				ThrowCandy();
+			}
+			if(controllerNumber == "C2_" && candybag.weightPlayer2 >= 1f){
+				candybag.weightPlayer2 -= 1f;
+				ThrowCandy();
+			}
+			if(controllerNumber == "C3_" && candybag.weightPlayer3 >= 1f){
+				candybag.weightPlayer3 -= 1f;
+				ThrowCandy();
+			}
+			if(controllerNumber == "C4_" && candybag.weightPlayer4 >= 1f){
+				candybag.weightPlayer4 -= 1f;
+				ThrowCandy();
+			}
+		}
+		
+	}
+
+	public void ThrowCandy(){
+		
+		//Throwing Candy
+	
 			//if(candy <=0) not abble to throw candy
 			Instantiate(candyProjectile, transform.position, Quaternion.identity);
 			
 			Rigidbody ins = Instantiate(candyProjectile, transform.position + (transform.forward*2), Quaternion.identity) as Rigidbody;
 			ins.AddForce(transform.forward * 35, ForceMode.VelocityChange);
 			nextShot = Time.time + shotDelay;
-		}
+			
 
-
-		
 	}
 
 
