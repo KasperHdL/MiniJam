@@ -9,7 +9,7 @@ public class MonsterAI : MonoBehaviour {
 
 	public AICharacterControl steering;
 
-
+	private int playerIndex;
 	public CandyBag candybag;
 
 	public bool isChasing;
@@ -38,6 +38,30 @@ public class MonsterAI : MonoBehaviour {
 			if(delta.magnitude >= chaseDisengageDistance){
 				isChasing = false;
 				steering.target = null;
+				playerIndex = -1;
+			}
+			if(nextAttack < Time.time && delta.magnitude < attackDistance){
+				switch(playerIndex){
+					case 0:
+						if(candybag.weightPlayer1 >= 1f)
+							candybag.weightPlayer1 -= 1f;
+						break;
+					case 1:
+						if(candybag.weightPlayer2 >= 1f)
+							candybag.weightPlayer2 -= 1f;
+						break;
+					case 2:
+						if(candybag.weightPlayer3 >= 1f)
+							candybag.weightPlayer3 -= 1f;
+						break;
+					case 3:
+						if(candybag.weightPlayer4 >= 1f)
+							candybag.weightPlayer4 -= 1f;
+						break;
+				}
+
+				
+				nextAttack = Time.time + attackDelay;
 			}
 		}else{
 
@@ -52,22 +76,14 @@ public class MonsterAI : MonoBehaviour {
 						
 						isChasing = true;
 						steering.target = player;
+						playerIndex = i;
 
-						if(nextAttack < Time.time && delta.magnitude < attackDistance){
-							switch(i){
-								case 0:candybag.weightPlayer1 -= 1f;break;
-								case 1:candybag.weightPlayer2 -= 1f;break;
-								case 2:candybag.weightPlayer3 -= 1f;break;
-								case 3:candybag.weightPlayer4 -= 1f;break;
-							}
-
-							nextAttack = Time.time + attackDelay;
-						}
 					}
 
 
 
 				}
+				i++;
 			}
 			
 
