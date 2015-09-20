@@ -14,6 +14,8 @@ public class MonsterSpawner : MonoBehaviour {
 	public float spawnDelay;
 	public float nextSpawn;
 
+	public CandyBag candybag;
+
 
 
 	// Use this for initialization
@@ -51,6 +53,7 @@ public class MonsterSpawner : MonoBehaviour {
 		g.transform.SetParent(containerMonster,false);
 
 		MonsterAI ai = g.GetComponent<MonsterAI>();
+		ai.candybag = candybag;
 		ai.spawner = this;
 
 	}

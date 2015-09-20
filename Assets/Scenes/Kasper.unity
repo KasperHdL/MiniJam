@@ -617,6 +617,10 @@ Prefab:
       propertyPath: playerHandler
       value: 
       objectReference: {fileID: 1628773485}
+    - target: {fileID: 11488210, guid: a760ca4bfe6104613a3c52658fee0b6b, type: 2}
+      propertyPath: candybag
+      value: 
+      objectReference: {fileID: 1550890646}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a760ca4bfe6104613a3c52658fee0b6b, type: 2}
   m_IsPrefabParent: 0
