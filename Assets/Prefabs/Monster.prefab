@@ -2403,12 +2403,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce7a80d520cacc042b5fe14f373d8173, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_MovingTurnSpeed: 360
-  m_StationaryTurnSpeed: 180
+  m_MovingTurnSpeed: 180
+  m_StationaryTurnSpeed: 90
   m_JumpPower: 6
   m_GravityMultiplier: 2
   m_RunCycleLegOffset: .200000003
-  m_MoveSpeedMultiplier: .5
+  m_MoveSpeedMultiplier: .25
   m_AnimSpeedMultiplier: 1
   m_GroundCheckDistance: .200000003
 --- !u!114 &11450350
@@ -2424,7 +2424,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawner: {fileID: 0}
   steering: {fileID: 11452030}
-  playerHandler: {fileID: 0}
   isChasing: 0
   chaseEngageDistance: 10
   chaseDisengageDistance: 15
@@ -2446,7 +2445,7 @@ CapsuleCollider:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 169458}
-  m_Material: {fileID: 13400000, guid: cf63880488ec29f43a759ecd9c6c5123, type: 2}
+  m_Material: {fileID: 13400000, guid: 16c0707a80a25474f937fc0fbd6be055, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   m_Radius: .300000012
@@ -2613,10 +2612,10 @@ NavMeshAgent:
   m_GameObject: {fileID: 169458}
   m_Enabled: 1
   m_Radius: .5
-  m_Speed: 2
-  m_Acceleration: 15
+  m_Speed: 1
+  m_Acceleration: 10
   avoidancePriority: 50
-  m_AngularSpeed: 120
+  m_AngularSpeed: 60
   m_StoppingDistance: .100000001
   m_AutoTraverseOffMeshLink: 1
   m_AutoBraking: 1
@@ -2644,6 +2643,35 @@ Prefab:
       propertyPath: chaseDisengageDistance
       value: 15
       objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_MovingTurnSpeed
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_StationaryTurnSpeed
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_MoveSpeedMultiplier
+      value: .25
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_Acceleration
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_AngularSpeed
+      value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_Speed
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 13400000, guid: 16c0707a80a25474f937fc0fbd6be055,
+        type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 169458}
