@@ -60,6 +60,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 443588}
   - 114: {fileID: 11480498}
+  - 136: {fileID: 13603458}
   m_Layer: 0
   m_Name: PickupSpawner
   m_TagString: Untagged
@@ -129,10 +130,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cacb27ef2dd824703b2013d511add869, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prefabPickup: {fileID: 0}
-  particles: {fileID: 0}
+  prefabPickup: {fileID: 105246, guid: 8c8f0ed1c6e3442f6b9392408d6e1152, type: 2}
+  particles: {fileID: 19871092}
   nextPickup: 0
-  spawnDelay: 0
+  spawnDelay: 10
+--- !u!136 &13603458
+CapsuleCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 170946}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: .5
+  m_Height: 4
+  m_Direction: 1
+  m_Center: {x: 0, y: 2, z: 0}
 --- !u!198 &19805952
 ParticleSystem:
   m_ObjectHideFlags: 1
