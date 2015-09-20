@@ -25,6 +25,22 @@ public class CandyBag : MonoBehaviour {
 		//transform.localScale = new Vector3(0.5F+weightPlayer1,1+weightPlayer1,0.5F+weightPlayer1);
 	}
 
+	public int GetWhoIsWinning() {
+		int score = 0;
+		int p = 0;
+
+		if (weightPlayer1 > score)
+			p = 1;
+		if (weightPlayer2 > score) 
+			p = 2;
+		if (weightPlayer3 > score)
+			p = 3;
+		if (weightPlayer4 > score) 
+			p = 4;
+
+		return p;
+	}
+
 	void OnGUI(){
 		GUIStyle nStyle = new GUIStyle ();
 		nStyle.font = newFont;
