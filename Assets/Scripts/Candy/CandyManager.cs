@@ -14,7 +14,7 @@ public class CandyManager : MonoBehaviour {
 
 	void SpawnCandy(){
 		for(int i = 0; i<5; i++){
-        	Vector3 position = new Vector3(Random.Range(-5.0F, 5.0F), 0.56F, Random.Range(-5.0F, 5.0F));
+        	Vector3 position = new Vector3(Random.Range(-40.0F, 40.0F), 0.56F, Random.Range(-40.0F, 40.0F));
         	Instantiate(prefab, position, Quaternion.identity);
     	}	
 	}
