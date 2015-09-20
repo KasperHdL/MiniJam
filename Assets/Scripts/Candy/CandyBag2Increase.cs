@@ -1,7 +1,8 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class CandyBagIncrease : MonoBehaviour {
+public class CandyBag2Increase : MonoBehaviour {
+
 	//gameObject CandyBag;
 	public CandyBag cb;
 
@@ -10,10 +11,8 @@ public class CandyBagIncrease : MonoBehaviour {
 		cb = GameObject.Find ("CandyBag").GetComponent<CandyBag> ();
 	
 	}
-	
 	// Update is called once per frame
 	void Update () {
-		transform.localScale = new Vector3(0.5F+cb.weightPlayer1,1+cb.weightPlayer1,0.5F+cb.weightPlayer1);
-		
+		transform.localScale = new Vector3(0.5F+cb.weightPlayer2,1+cb.weightPlayer2,0.5F+cb.weightPlayer2);
 	}
 }
