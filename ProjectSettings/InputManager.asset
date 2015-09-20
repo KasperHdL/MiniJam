@@ -412,14 +412,14 @@ InputManager:
     negativeButton: 
     positiveButton: joystick 1 button 2
     altNegativeButton: 
-    altPositiveButton: joystick 1 button 7
+    altPositiveButton: 
     gravity: 1000
     dead: .00100000005
     sensitivity: 1000
     snap: 0
     invert: 0
-    type: 0
-    axis: 0
+    type: 2
+    axis: 2
     joyNum: 1
   - serializedVersion: 3
     m_Name: C2_Fire1
@@ -428,14 +428,14 @@ InputManager:
     negativeButton: 
     positiveButton: joystick 2 button 2
     altNegativeButton: 
-    altPositiveButton: joystick 2 button 7
+    altPositiveButton: 
     gravity: 1000
     dead: .00100000005
     sensitivity: 1000
     snap: 0
     invert: 0
-    type: 0
-    axis: 0
+    type: 2
+    axis: 2
     joyNum: 2
   - serializedVersion: 3
     m_Name: C3_Fire1
@@ -444,14 +444,14 @@ InputManager:
     negativeButton: 
     positiveButton: joystick 3 button 2
     altNegativeButton: 
-    altPositiveButton: joystick 3 button 7
+    altPositiveButton: 
     gravity: 1000
     dead: .00100000005
     sensitivity: 1000
     snap: 0
     invert: 0
-    type: 0
-    axis: 0
+    type: 2
+    axis: 2
     joyNum: 3
   - serializedVersion: 3
     m_Name: C4_Fire1
@@ -460,14 +460,14 @@ InputManager:
     negativeButton: 
     positiveButton: joystick 4 button 2
     altNegativeButton: 
-    altPositiveButton: joystick 4 button 7
+    altPositiveButton: 
     gravity: 1000
     dead: .00100000005
     sensitivity: 1000
     snap: 0
     invert: 0
-    type: 0
-    axis: 0
+    type: 2
+    axis: 2
     joyNum: 4
   - serializedVersion: 3
     m_Name: C1_Fire2

@@ -14,5 +14,10 @@ public class CandyProjectile : MonoBehaviour {
 	void Update () {
 
 		Destroy(gameObject, lifeTime);
+		
+	}
+
+	void OnCollisionEnter (Collision col) {
+		Destroy (gameObject);
 	}
 }
