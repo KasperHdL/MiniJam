@@ -7,7 +7,9 @@ public class Controller : MonoBehaviour {
 	private float speed = 6.0F;
 	private float jumpSpeed = 8.0F;
 	private float gravity = 20.0F;
+	private float turnSpeed = 80.0F; 
 	private Vector3 moveDirection = Vector3.zero;
+	private Vector3 viewDirection = Vector3.zero;
 	private CharacterController controller;
 
 
@@ -34,6 +36,10 @@ public class Controller : MonoBehaviour {
 		moveDirection.y -= gravity * Time.deltaTime;
 		controller.Move(moveDirection * Time.deltaTime);
 
+		//Character rotation
+		viewDirection = new Vector3(Input.GetAxis(controllerNumber + "ViewX"), 0, Input.GetAxis(controllerNumber + "ViewY"));
+		//transform.Rotate(viewDirection * turnSpeed * Time.deltaTime, Space.Self);
+		transform.Rotate(Vector3.up, (Input.GetAxis(controllerNumber + "ViewX") * -1) * turnSpeed * Time.deltaTime, Space.Self);
 
 	}
 }
