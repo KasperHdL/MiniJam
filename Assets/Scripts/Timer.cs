@@ -6,7 +6,7 @@ public class Timer : MonoBehaviour {
 		private int fontSize;
 		private bool isGameDone = false;
 
-	float timer = 10.0F;
+	float timer = 120.0F;
 	//gameObject CandyBag;
 	public CandyBag cb;
 
