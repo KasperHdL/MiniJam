@@ -157,7 +157,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controllerNumber: C1_
-  candyProjectile: {fileID: 5444036, guid: c608aeaa2d4f38e4c9225bed5155c097, type: 2}
+  candyProjectile: {fileID: 5485492, guid: 7e48444c08618d945aa60ed60ba016b9, type: 2}
 --- !u!114 &11467742
 MonoBehaviour:
   m_ObjectHideFlags: 1
