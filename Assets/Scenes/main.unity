@@ -562,16 +562,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_EditorClassIdentifier: 
-  weightPlayer1: 0
-  weightPlayer2: 0
-  weightPlayer3: 0
-  weightPlayer4: 0
-  newFont: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-  WeightPlayer1: {fileID: 2800000, guid: 65f693d8d58f60c47b0448aa40324704, type: 3}
-  WeightPlayer2: {fileID: 2800000, guid: 0e4251807d3d1b4448e59d787a23b526, type: 3}
-  WeightPlayer3: {fileID: 2800000, guid: 306392e75a2551045b7acaa3724d5927, type: 3}
-  WeightPlayer4: {fileID: 2800000, guid: f0db7c76b1cb52f40aeeeb2705edccf5, type: 3}
+  m_RootOrder: 3
 --- !u!1001 &807564470
 Prefab:
   m_ObjectHideFlags: 0
@@ -1054,6 +1045,30 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cb: {fileID: 0}
+--- !u!1 &1550890645 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 161324, guid: 7dd19dce55ca4964883cd4bed9859419, type: 2}
+  m_PrefabInternal: {fileID: 1244190193}
+--- !u!114 &1550890646
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1550890645}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58608d868a1e5ae438b1d2efc8239947, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  weightPlayer1: 0
+  weightPlayer2: 0
+  weightPlayer3: 0
+  weightPlayer4: 0
+  newFont: {fileID: 0}
+  WeightPlayer1: {fileID: 2800000, guid: 65f693d8d58f60c47b0448aa40324704, type: 3}
+  WeightPlayer2: {fileID: 2800000, guid: 0e4251807d3d1b4448e59d787a23b526, type: 3}
+  WeightPlayer3: {fileID: 2800000, guid: 306392e75a2551045b7acaa3724d5927, type: 3}
+  WeightPlayer4: {fileID: 2800000, guid: f0db7c76b1cb52f40aeeeb2705edccf5, type: 3}
 --- !u!1 &1628773484
 GameObject:
   m_ObjectHideFlags: 0
@@ -1096,7 +1111,7 @@ Transform:
   - {fileID: 1155615403}
   - {fileID: 673369947}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
 --- !u!1 &1661431922
 GameObject:
   m_ObjectHideFlags: 0

@@ -87,7 +87,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 170946}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.42153037, y: 4.76837158e-07, z: .554750323}
+  m_LocalPosition: {x: -8.75, y: 0, z: .550000012}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 494830}
@@ -130,7 +130,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cacb27ef2dd824703b2013d511add869, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prefabPickup: {fileID: 105246, guid: 8c8f0ed1c6e3442f6b9392408d6e1152, type: 2}
+  prefabPickup: {fileID: 112832, guid: a81232edeae1e42209b33161ec04ba57, type: 2}
   particles: {fileID: 19871092}
   nextPickup: 0
   spawnDelay: 10

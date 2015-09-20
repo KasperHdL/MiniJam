@@ -14,6 +14,9 @@ public class Controller : MonoBehaviour {
 	//Candy projectile prefab
 	public Rigidbody candyProjectile;
 
+	private float shotDelay = .5f;
+	private float nextShot;
+
 
 	// Use this for initialization
 	void Start () {
@@ -42,8 +45,13 @@ public class Controller : MonoBehaviour {
 
 
 		//Throwing Candy
-		if(Input.GetButtonDown(controllerNumber + "Fire1")) {
-
+		if(nextShot < Time.time && (Input.GetAxis(controllerNumber + "Fire1") < 0)) {
+			//if(candy <=0) not abble to throw candy
+			Instantiate(candyProjectile, transform.position, Quaternion.identity);
+			
+			Rigidbody ins = Instantiate(candyProjectile, transform.position + (transform.forward*2), Quaternion.identity) as Rigidbody;
+			ins.AddForce(transform.forward * 35, ForceMode.VelocityChange);
+			nextShot = Time.time + shotDelay;
 		}
 
 
