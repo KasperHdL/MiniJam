@@ -17,11 +17,16 @@ public class MonsterAI : MonoBehaviour {
 	public float chaseDisengageDistance;
 
 
+	private bool isStunned = false;
+	private float stopBeingStunned;
+
 
 	// Update is called once per frame
 	void FixedUpdate () {
-
-		if(isChasing){
+		if(isStunned){
+			if(stopBeingStunned < Time.time)
+				isStunned = false;
+		}else if(isChasing){
 			Vector3 delta = steering.target.position - transform.position;
 			if(delta.magnitude >= chaseDisengageDistance){
 				isChasing = false;
@@ -56,5 +61,11 @@ public class MonsterAI : MonoBehaviour {
 		}
 
 
+	}
+
+	public void Stun(float time){
+		stopBeingStunned = Time.time + time;
+		isStunned = true;
+		steering.target = null;
 	}
 }
