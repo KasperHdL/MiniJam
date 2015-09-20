@@ -3,7 +3,7 @@ using System.Collections;
 
 public class PlayerPickup : MonoBehaviour {
 
-
+	public string controllerName;
 	Type currentPickup;
 
 
