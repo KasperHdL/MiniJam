@@ -18,6 +18,7 @@ public class PickupSpawner : MonoBehaviour {
 		if(pickup == null){
 			if(nextPickup < Time.time){
 				SpawnPickup();
+				particles.Play();
 				nextPickup = Time.time + spawnDelay;
 			}
 		}else{

@@ -242,6 +242,10 @@ Prefab:
       propertyPath: m_Color.b
       value: .202476218
       objectReference: {fileID: 0}
+    - target: {fileID: 117822, guid: 1a42e63b70d5d0446b60edeac5c24a38, type: 2}
+      propertyPath: m_TagString
+      value: Player2
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
   m_ParentPrefab: {fileID: 100100000, guid: 1a42e63b70d5d0446b60edeac5c24a38, type: 2}
@@ -374,6 +378,10 @@ Prefab:
       propertyPath: m_Color.b
       value: .91911763
       objectReference: {fileID: 0}
+    - target: {fileID: 117822, guid: 1a42e63b70d5d0446b60edeac5c24a38, type: 2}
+      propertyPath: m_TagString
+      value: Player1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1a42e63b70d5d0446b60edeac5c24a38, type: 2}
   m_IsPrefabParent: 0
@@ -491,7 +499,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 487656, guid: a760ca4bfe6104613a3c52658fee0b6b, type: 2}
       propertyPath: m_RootOrder
-      value: 6
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 11488210, guid: a760ca4bfe6104613a3c52658fee0b6b, type: 2}
       propertyPath: containerMonster
