@@ -491,7 +491,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 487656, guid: a760ca4bfe6104613a3c52658fee0b6b, type: 2}
       propertyPath: m_RootOrder
-      value: 6
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 11488210, guid: a760ca4bfe6104613a3c52658fee0b6b, type: 2}
       propertyPath: containerMonster

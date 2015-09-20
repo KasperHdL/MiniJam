@@ -27,7 +27,7 @@ public class Candy : MonoBehaviour {
 			//destroy
 			gameObject.SetActive (false);
 			//increase player2 weight
-			cb.weightPlayer1+=0.1F;
+			cb.weightPlayer2+=0.1F;
 		}
 		else if(other.gameObject.tag == "Player3"){
 			//play sound

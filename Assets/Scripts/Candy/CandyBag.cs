@@ -22,7 +22,7 @@ public class CandyBag : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		transform.localScale = new Vector3(0.5F+weightPlayer1,1+weightPlayer1,0.5F+weightPlayer1);
+		//transform.localScale = new Vector3(0.5F+weightPlayer1,1+weightPlayer1,0.5F+weightPlayer1);
 	}
 
 	void OnGUI(){
