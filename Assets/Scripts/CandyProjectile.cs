@@ -21,8 +21,8 @@ public class CandyProjectile : MonoBehaviour {
 		if(col.gameObject.tag == "Monster") { 
 			col.gameObject.GetComponent<MonsterAI>().Stun(1.0f);
 		}
-		if(col.gameObject.tag == "Player") { 
-			
+		if(col.gameObject.layer.Equals("Player")) { 
+			//col.gameObject.GetComponent<Controller>().Stun(1.0f);
 		}
 		Destroy (gameObject);
 	}
