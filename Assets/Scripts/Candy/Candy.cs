@@ -5,15 +5,12 @@ public class Candy : MonoBehaviour {
 
 	//load sound of picking up candy
 	public AudioClip pickUpCandySound;
+	//gameObject CandyBag;
+	public CandyBag cb;
 
 	// Use this for initialization
 	void Start () {
-	
-	}
-	
-	// Update is called once per frame
-	void Update () {
-	
+		cb = GameObject.Find ("CandyBag").GetComponent<CandyBag> ();
 	}
 	void OnTriggerEnter(Collider other){
 		if (other.gameObject.tag == "Player1"){
@@ -22,6 +19,7 @@ public class Candy : MonoBehaviour {
 			//destroy
 			gameObject.SetActive (false);
 			//increase player1 weight
+			cb.weight+=0.1F;
 		}
 		else if(other.gameObject.tag == "Player2"){
 			//play sound
