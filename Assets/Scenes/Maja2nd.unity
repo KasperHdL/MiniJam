@@ -673,6 +673,68 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1a42e63b70d5d0446b60edeac5c24a38, type: 2}
   m_IsPrefabParent: 0
+--- !u!1001 &909200138
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 673369947}
+    m_Modifications:
+    - target: {fileID: 471196, guid: 7dd19dce55ca4964883cd4bed9859419, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 30.9016171
+      objectReference: {fileID: 0}
+    - target: {fileID: 471196, guid: 7dd19dce55ca4964883cd4bed9859419, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -.258158445
+      objectReference: {fileID: 0}
+    - target: {fileID: 471196, guid: 7dd19dce55ca4964883cd4bed9859419, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -29.5003109
+      objectReference: {fileID: 0}
+    - target: {fileID: 471196, guid: 7dd19dce55ca4964883cd4bed9859419, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 471196, guid: 7dd19dce55ca4964883cd4bed9859419, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 471196, guid: 7dd19dce55ca4964883cd4bed9859419, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 471196, guid: 7dd19dce55ca4964883cd4bed9859419, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: -1.62920685e-07
+      objectReference: {fileID: 0}
+    - target: {fileID: 471196, guid: 7dd19dce55ca4964883cd4bed9859419, type: 2}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 161324, guid: 7dd19dce55ca4964883cd4bed9859419, type: 2}
+      propertyPath: m_Name
+      value: CandyBagPlayer4
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 7dd19dce55ca4964883cd4bed9859419, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1 &909200139
+GameObject:
+  m_PrefabParentObject: {fileID: 161324, guid: 7dd19dce55ca4964883cd4bed9859419, type: 2}
+  m_PrefabInternal: {fileID: 909200138}
+--- !u!114 &909200140
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 909200139}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41e56d8620a9f7a45b159c2e85a33500, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cb: {fileID: 0}
 --- !u!1001 &1118885328
 Prefab:
   m_ObjectHideFlags: 0
@@ -736,7 +798,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 471196, guid: 7dd19dce55ca4964883cd4bed9859419, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 1
+      value: 2.74300003
       objectReference: {fileID: 0}
     - target: {fileID: 471196, guid: 7dd19dce55ca4964883cd4bed9859419, type: 2}
       propertyPath: m_LocalPosition.z
@@ -847,6 +909,68 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1a42e63b70d5d0446b60edeac5c24a38, type: 2}
   m_IsPrefabParent: 0
+--- !u!1001 &1382649883
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 617404435}
+    m_Modifications:
+    - target: {fileID: 471196, guid: 7dd19dce55ca4964883cd4bed9859419, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -23.0983849
+      objectReference: {fileID: 0}
+    - target: {fileID: 471196, guid: 7dd19dce55ca4964883cd4bed9859419, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -.258158445
+      objectReference: {fileID: 0}
+    - target: {fileID: 471196, guid: 7dd19dce55ca4964883cd4bed9859419, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -21.1003284
+      objectReference: {fileID: 0}
+    - target: {fileID: 471196, guid: 7dd19dce55ca4964883cd4bed9859419, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 471196, guid: 7dd19dce55ca4964883cd4bed9859419, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 471196, guid: 7dd19dce55ca4964883cd4bed9859419, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 471196, guid: 7dd19dce55ca4964883cd4bed9859419, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: -1.62920685e-07
+      objectReference: {fileID: 0}
+    - target: {fileID: 471196, guid: 7dd19dce55ca4964883cd4bed9859419, type: 2}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 161324, guid: 7dd19dce55ca4964883cd4bed9859419, type: 2}
+      propertyPath: m_Name
+      value: CandyBagPlayer1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 7dd19dce55ca4964883cd4bed9859419, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1 &1382649884
+GameObject:
+  m_PrefabParentObject: {fileID: 161324, guid: 7dd19dce55ca4964883cd4bed9859419, type: 2}
+  m_PrefabInternal: {fileID: 1382649883}
+--- !u!114 &1382649885
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1382649884}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41e56d8620a9f7a45b159c2e85a33500, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cb: {fileID: 0}
 --- !u!1 &1628773484
 GameObject:
   m_ObjectHideFlags: 0
@@ -976,3 +1100,127 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
+--- !u!1001 &1940141098
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1155615403}
+    m_Modifications:
+    - target: {fileID: 471196, guid: 7dd19dce55ca4964883cd4bed9859419, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -31.7984047
+      objectReference: {fileID: 0}
+    - target: {fileID: 471196, guid: 7dd19dce55ca4964883cd4bed9859419, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -.258158445
+      objectReference: {fileID: 0}
+    - target: {fileID: 471196, guid: 7dd19dce55ca4964883cd4bed9859419, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 34.6996689
+      objectReference: {fileID: 0}
+    - target: {fileID: 471196, guid: 7dd19dce55ca4964883cd4bed9859419, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 471196, guid: 7dd19dce55ca4964883cd4bed9859419, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 471196, guid: 7dd19dce55ca4964883cd4bed9859419, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 471196, guid: 7dd19dce55ca4964883cd4bed9859419, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: -1.62920685e-07
+      objectReference: {fileID: 0}
+    - target: {fileID: 471196, guid: 7dd19dce55ca4964883cd4bed9859419, type: 2}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 161324, guid: 7dd19dce55ca4964883cd4bed9859419, type: 2}
+      propertyPath: m_Name
+      value: CandyBagPlayer3
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 7dd19dce55ca4964883cd4bed9859419, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1 &1940141099
+GameObject:
+  m_PrefabParentObject: {fileID: 161324, guid: 7dd19dce55ca4964883cd4bed9859419, type: 2}
+  m_PrefabInternal: {fileID: 1940141098}
+--- !u!114 &1940141100
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1940141099}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41e56d8620a9f7a45b159c2e85a33500, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cb: {fileID: 0}
+--- !u!1001 &2019218390
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 347371124}
+    m_Modifications:
+    - target: {fileID: 471196, guid: 7dd19dce55ca4964883cd4bed9859419, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 23.3015957
+      objectReference: {fileID: 0}
+    - target: {fileID: 471196, guid: 7dd19dce55ca4964883cd4bed9859419, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -.258158445
+      objectReference: {fileID: 0}
+    - target: {fileID: 471196, guid: 7dd19dce55ca4964883cd4bed9859419, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 29.9996872
+      objectReference: {fileID: 0}
+    - target: {fileID: 471196, guid: 7dd19dce55ca4964883cd4bed9859419, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 471196, guid: 7dd19dce55ca4964883cd4bed9859419, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 471196, guid: 7dd19dce55ca4964883cd4bed9859419, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 471196, guid: 7dd19dce55ca4964883cd4bed9859419, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: -1.62920685e-07
+      objectReference: {fileID: 0}
+    - target: {fileID: 471196, guid: 7dd19dce55ca4964883cd4bed9859419, type: 2}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 161324, guid: 7dd19dce55ca4964883cd4bed9859419, type: 2}
+      propertyPath: m_Name
+      value: CandyBagPlayer2
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 7dd19dce55ca4964883cd4bed9859419, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1 &2019218391
+GameObject:
+  m_PrefabParentObject: {fileID: 161324, guid: 7dd19dce55ca4964883cd4bed9859419, type: 2}
+  m_PrefabInternal: {fileID: 2019218390}
+--- !u!114 &2019218392
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2019218391}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41e56d8620a9f7a45b159c2e85a33500, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cb: {fileID: 0}
