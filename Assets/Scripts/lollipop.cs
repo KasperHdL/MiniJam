@@ -7,7 +7,7 @@ public class lollipop : MonoBehaviour {
 	private CandyBag candyManager;
 
 	// Use this for initialization
-	void Start () {
+	void OnAwake () {
 		candyManager = GameObject.Find ("CandyBag").GetComponent<CandyBag> ();
 
 		if (candyManager == null) {
@@ -20,6 +20,7 @@ public class lollipop : MonoBehaviour {
 		// Update texture
 		if (candyManager != null) {
 			GetComponent<MeshRenderer>().material.SetTexture("_MainTex", leadningColourTex[candyManager.GetWhoIsWinning() - 1]);
+			Debug.Log (candyManager.GetWhoIsWinning());
 		}
 
 		// Rotate around
