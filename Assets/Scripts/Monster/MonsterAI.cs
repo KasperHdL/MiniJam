@@ -36,11 +36,8 @@ public class MonsterAI : MonoBehaviour {
 				if(delta.magnitude < chaseEngageDistance){
 					//raycast to player, is he visible to monster
 
-					if (Physics.Linecast(transform.position, player.position,1<<8)) {
-						//@TODO should linecast on level geometry
+					if (! Physics.Linecast(transform.position, player.position,1<<8)) {
 
-						Debug.Log("Blocked");
-					}else{
 						isChasing = true;
 						steering.target = player;
 					}
