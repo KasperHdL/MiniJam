@@ -11,9 +11,6 @@ public class Controller : MonoBehaviour {
 	private Vector3 moveDirection = Vector3.zero;
 	private CharacterController controller;
 
-	//Candy projectile prefab
-	public Rigidbody candyProjectile;
-
 
 	// Use this for initialization
 	void Start () {
@@ -39,14 +36,6 @@ public class Controller : MonoBehaviour {
 
 		//Character rotation. Speed controlled by "turnSpeed"
 		transform.Rotate(Vector3.up, (Input.GetAxis(controllerNumber + "ViewX") * -1) * turnSpeed * Time.deltaTime, Space.Self);
-
-
-		//Throwing Candy
-		if(Input.GetKeyDown(controllerNumber + "Fire1")) {
-
-		}
-
-
 		
 	}
 }
