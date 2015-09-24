@@ -7,6 +7,8 @@ public class CandyBag : MonoBehaviour {
 	public float weightPlayer2;
 	public float weightPlayer3;
 	public float weightPlayer4;
+
+	public int p = 0;
 	//GUI
 	public Font newFont;
 	private int fontSize;
@@ -27,7 +29,6 @@ public class CandyBag : MonoBehaviour {
 
 	public int GetWhoIsWinning() {
 		float score = 0;
-		int p = 0;
 
 		if (weightPlayer1 > score) {
 			score = weightPlayer1;
