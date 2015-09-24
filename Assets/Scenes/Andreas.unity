@@ -87,6 +87,164 @@ NavMeshSettings:
     cellSize: .166666672
     manualCellSize: 0
   m_NavMeshData: {fileID: 23800000, guid: 885b35e3bc38b1b40b1b04c909a66334, type: 2}
+--- !u!1001 &23646706
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 700618884}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 35.5309982
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.16899991
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -5.31209993
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: .707106829
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: .707106709
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_Name
+      value: Halloween_house 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.11154377
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+  m_IsPrefabParent: 0
+--- !u!4 &23646707 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+  m_PrefabInternal: {fileID: 23646706}
+--- !u!1001 &31500895
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 922177963}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -30.6000004
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.20000005
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -5.30000019
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: .707106829
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: .707106709
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_RootOrder
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_Name
+      value: Halloween_house 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.2309823
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+  m_IsPrefabParent: 0
+--- !u!4 &31500896 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+  m_PrefabInternal: {fileID: 31500895}
+--- !u!1001 &31539106
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 700618884}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 011c7693fd2388048be7138e60e35ddf, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -8.95894814
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 011c7693fd2388048be7138e60e35ddf, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.16904068
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 011c7693fd2388048be7138e60e35ddf, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -7.03214264
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 011c7693fd2388048be7138e60e35ddf, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 011c7693fd2388048be7138e60e35ddf, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: .707106829
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 011c7693fd2388048be7138e60e35ddf, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 011c7693fd2388048be7138e60e35ddf, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: .707106709
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 011c7693fd2388048be7138e60e35ddf, type: 3}
+      propertyPath: m_RootOrder
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 011c7693fd2388048be7138e60e35ddf, type: 3}
+      propertyPath: m_Name
+      value: Halloween_church 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 011c7693fd2388048be7138e60e35ddf, type: 3}
+  m_IsPrefabParent: 0
+--- !u!4 &31539107 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400000, guid: 011c7693fd2388048be7138e60e35ddf, type: 3}
+  m_PrefabInternal: {fileID: 31539106}
 --- !u!1 &80213679
 GameObject:
   m_ObjectHideFlags: 0
@@ -146,8 +304,58 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
---- !u!1 &105780913
+  m_RootOrder: 5
+--- !u!1001 &104143264
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 237276805}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 11.5209999
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.16899991
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -5.31209993
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: .707106829
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: .707106709
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.18858516
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+  m_IsPrefabParent: 0
+--- !u!4 &104143265 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+  m_PrefabInternal: {fileID: 104143264}
+--- !u!1 &105780913 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 117822, guid: 1a42e63b70d5d0446b60edeac5c24a38, type: 2}
   m_PrefabInternal: {fileID: 197941702}
@@ -165,11 +373,61 @@ MonoBehaviour:
   controllerName: C2_
   prefabStun: {fileID: 150228, guid: 6fdedf95da1714b378aaa0bd15a9274c, type: 2}
   stunBombForce: 3
---- !u!4 &151647821
+--- !u!4 &151647821 stripped
 Transform:
   m_PrefabParentObject: {fileID: 443588, guid: 373a78178ecef4d6c8c3b5996a43172b, type: 2}
   m_PrefabInternal: {fileID: 1688193209}
---- !u!4 &187882544
+--- !u!1001 &186541460
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 237276805}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 47.0610542
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.16904068
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2.75214005
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_Name
+      value: Halloween_house 7
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+  m_IsPrefabParent: 0
+--- !u!4 &186541461 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+  m_PrefabInternal: {fileID: 186541460}
+--- !u!4 &187882544 stripped
 Transform:
   m_PrefabParentObject: {fileID: 487656, guid: a760ca4bfe6104613a3c52658fee0b6b, type: 2}
   m_PrefabInternal: {fileID: 1444286399}
@@ -228,10 +486,10 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 191363417}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.54909325, y: 6.69897509, z: 12.5906868}
+  m_LocalPosition: {x: 43.7849121, y: 19.3838921, z: -36.0070457}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 474517069}
+  m_Father: {fileID: 668291130}
   m_RootOrder: 1
 --- !u!1001 &197941702
 Prefab:
@@ -352,10 +610,156 @@ Prefab:
     - {fileID: 0}
   m_ParentPrefab: {fileID: 100100000, guid: 1a42e63b70d5d0446b60edeac5c24a38, type: 2}
   m_IsPrefabParent: 0
---- !u!4 &224195964
+--- !u!4 &224195964 stripped
 Transform:
   m_PrefabParentObject: {fileID: 487656, guid: a760ca4bfe6104613a3c52658fee0b6b, type: 2}
   m_PrefabInternal: {fileID: 731676882}
+--- !u!1 &237276804
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 237276805}
+  m_Layer: 0
+  m_Name: BoundryWall 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &237276805
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 237276804}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: -1.62920685e-07}
+  m_LocalPosition: {x: -38.2691498, y: -5.03476048, z: 52.5235023}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2037166681}
+  - {fileID: 186541461}
+  - {fileID: 786313146}
+  - {fileID: 303479534}
+  - {fileID: 1688331791}
+  - {fileID: 1257705194}
+  - {fileID: 993250013}
+  - {fileID: 1903654980}
+  - {fileID: 104143265}
+  - {fileID: 1396989478}
+  - {fileID: 1063168516}
+  - {fileID: 1104600178}
+  - {fileID: 392710533}
+  - {fileID: 710464985}
+  - {fileID: 2117081297}
+  - {fileID: 1750583272}
+  - {fileID: 1902742660}
+  - {fileID: 533294753}
+  - {fileID: 1483330335}
+  m_Father: {fileID: 338945750}
+  m_RootOrder: 2
+--- !u!1001 &263684374
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 479046674}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -13.3000002
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.20000005
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -5.30000019
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: .707106829
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: .707106709
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_RootOrder
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_Name
+      value: Halloween_house 9
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+  m_IsPrefabParent: 0
+--- !u!4 &263684375 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+  m_PrefabInternal: {fileID: 263684374}
+--- !u!1001 &267551042
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 922177963}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 011c7693fd2388048be7138e60e35ddf, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -25.7999992
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 011c7693fd2388048be7138e60e35ddf, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.20000005
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 011c7693fd2388048be7138e60e35ddf, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -7
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 011c7693fd2388048be7138e60e35ddf, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 011c7693fd2388048be7138e60e35ddf, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: .707106829
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 011c7693fd2388048be7138e60e35ddf, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 011c7693fd2388048be7138e60e35ddf, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: .707106709
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 011c7693fd2388048be7138e60e35ddf, type: 3}
+      propertyPath: m_RootOrder
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 011c7693fd2388048be7138e60e35ddf, type: 3}
+      propertyPath: m_Name
+      value: Halloween_church 3
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 011c7693fd2388048be7138e60e35ddf, type: 3}
+  m_IsPrefabParent: 0
+--- !u!4 &267551043 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400000, guid: 011c7693fd2388048be7138e60e35ddf, type: 3}
+  m_PrefabInternal: {fileID: 267551042}
 --- !u!1 &294820522
 GameObject:
   m_ObjectHideFlags: 0
@@ -411,10 +815,10 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 294820522}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -23.4190941, y: 6.69897509, z: 1.75768709}
+  m_LocalPosition: {x: 21.9149132, y: 19.3838921, z: -46.8400459}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 474517069}
+  m_Father: {fileID: 668291130}
   m_RootOrder: 6
 --- !u!1001 &299059209
 Prefab:
@@ -462,6 +866,114 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 373a78178ecef4d6c8c3b5996a43172b, type: 2}
   m_IsPrefabParent: 0
+--- !u!1001 &303479533
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 237276805}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 35.5309982
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.16899991
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -5.31209993
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: .707106829
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: .707106709
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_Name
+      value: Halloween_house 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.37993932
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+  m_IsPrefabParent: 0
+--- !u!4 &303479534 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+  m_PrefabInternal: {fileID: 303479533}
+--- !u!1001 &303985657
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 479046674}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -54.5999985
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.20000005
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -5.30000019
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: .707106829
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: .707106709
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_RootOrder
+      value: 17
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_Name
+      value: Halloween_house 17
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.18339181
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+  m_IsPrefabParent: 0
+--- !u!4 &303985658 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+  m_PrefabInternal: {fileID: 303985657}
 --- !u!1 &320043355
 GameObject:
   m_ObjectHideFlags: 0
@@ -517,10 +1029,10 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 320043355}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -24.0590935, y: 6.69897509, z: -5.35931301}
+  m_LocalPosition: {x: 21.2749138, y: 19.3838921, z: -53.9570465}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 474517069}
+  m_Father: {fileID: 668291130}
   m_RootOrder: 8
 --- !u!1 &327289671
 GameObject:
@@ -577,11 +1089,46 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 327289671}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.39909339, y: 6.8289752, z: -19.6593132}
+  m_LocalPosition: {x: 42.9349136, y: 19.5138931, z: -68.2570496}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 474517069}
+  m_Father: {fileID: 668291130}
   m_RootOrder: 11
+--- !u!1 &338945749
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 338945750}
+  m_Layer: 0
+  m_Name: Walls
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &338945750
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 338945749}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 32.2691498, y: 7.23476028, z: -14.3235006}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 700618884}
+  - {fileID: 922177963}
+  - {fileID: 237276805}
+  - {fileID: 479046674}
+  - {fileID: 565587493}
+  - {fileID: 1031347440}
+  - {fileID: 1298853106}
+  - {fileID: 891294222}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
 --- !u!1001 &341933688
 Prefab:
   m_ObjectHideFlags: 0
@@ -672,7 +1219,7 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1a42e63b70d5d0446b60edeac5c24a38, type: 2}
   m_IsPrefabParent: 0
---- !u!4 &347371124
+--- !u!4 &347371124 stripped
 Transform:
   m_PrefabParentObject: {fileID: 489844, guid: 1a42e63b70d5d0446b60edeac5c24a38, type: 2}
   m_PrefabInternal: {fileID: 197941702}
@@ -731,15 +1278,169 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 367499281}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -24.5890942, y: 6.69897509, z: -1.28931284}
+  m_LocalPosition: {x: 20.7449131, y: 19.3838921, z: -49.8870468}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 474517069}
+  m_Father: {fileID: 668291130}
   m_RootOrder: 7
---- !u!4 &400891563
+--- !u!1001 &392710532
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 237276805}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -19
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.20000005
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2.79999995
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_RootOrder
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_Name
+      value: Halloween_house 10
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+  m_IsPrefabParent: 0
+--- !u!4 &392710533 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+  m_PrefabInternal: {fileID: 392710532}
+--- !u!4 &400891563 stripped
 Transform:
   m_PrefabParentObject: {fileID: 443588, guid: 373a78178ecef4d6c8c3b5996a43172b, type: 2}
   m_PrefabInternal: {fileID: 1831464867}
+--- !u!1001 &444842928
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 922177963}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -36.2999992
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.20000005
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2.79999995
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_RootOrder
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_Name
+      value: Halloween_house 11
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+  m_IsPrefabParent: 0
+--- !u!4 &444842929 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+  m_PrefabInternal: {fileID: 444842928}
+--- !u!1001 &464253873
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 479046674}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 35.5309982
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.16899991
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -5.31209993
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: .707106829
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: .707106709
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_Name
+      value: Halloween_house 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.2700181
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+  m_IsPrefabParent: 0
+--- !u!4 &464253874 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+  m_PrefabInternal: {fileID: 464253873}
 --- !u!1 &467983043
 GameObject:
   m_ObjectHideFlags: 0
@@ -795,10 +1496,10 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 467983043}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 7.87090635, y: 6.69897509, z: 7.25068712}
+  m_LocalPosition: {x: 53.2049141, y: 19.3838921, z: -41.3470459}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 474517069}
+  m_Father: {fileID: 668291130}
   m_RootOrder: 0
 --- !u!1 &474517068
 GameObject:
@@ -825,31 +1526,159 @@ Transform:
   m_LocalPosition: {x: .499093354, y: -2.88897514, z: -6.39068699}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 467983045}
-  - {fileID: 191363419}
-  - {fileID: 2078533711}
-  - {fileID: 595882020}
-  - {fileID: 1448764526}
-  - {fileID: 746071311}
-  - {fileID: 294820524}
-  - {fileID: 367499283}
-  - {fileID: 320043357}
-  - {fileID: 799456082}
-  - {fileID: 2019203676}
-  - {fileID: 327289673}
-  - {fileID: 949792667}
-  - {fileID: 1557760329}
-  - {fileID: 754800082}
-  - {fileID: 1045367704}
-  - {fileID: 1026973470}
-  - {fileID: 606689402}
-  - {fileID: 1402528641}
+  - {fileID: 668291130}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
---- !u!4 &524891417
+  m_RootOrder: 6
+--- !u!1 &479046673
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 479046674}
+  m_Layer: 0
+  m_Name: BoundryWall
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &479046674
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 479046673}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -36.5902023, y: -5.0657196, z: -44.5843582}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1266730489}
+  - {fileID: 1748215237}
+  - {fileID: 1366095947}
+  - {fileID: 464253874}
+  - {fileID: 1438565832}
+  - {fileID: 1282322691}
+  - {fileID: 1088511372}
+  - {fileID: 1558333239}
+  - {fileID: 1877918957}
+  - {fileID: 1874618339}
+  - {fileID: 1798235712}
+  - {fileID: 263684375}
+  - {fileID: 922141846}
+  - {fileID: 944212515}
+  - {fileID: 1495776069}
+  - {fileID: 555944807}
+  - {fileID: 1128902362}
+  - {fileID: 303985658}
+  - {fileID: 767211727}
+  m_Father: {fileID: 338945750}
+  m_RootOrder: 3
+--- !u!4 &524891417 stripped
 Transform:
   m_PrefabParentObject: {fileID: 443588, guid: 373a78178ecef4d6c8c3b5996a43172b, type: 2}
   m_PrefabInternal: {fileID: 2080914591}
+--- !u!1001 &529685106
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 922177963}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 17.6110516
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.16904068
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2.75214005
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_Name
+      value: Halloween_house 3
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+  m_IsPrefabParent: 0
+--- !u!4 &529685107 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+  m_PrefabInternal: {fileID: 529685106}
+--- !u!1001 &533294752
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 237276805}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -54.5999985
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.20000005
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -5.30000019
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: .707106829
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: .707106709
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_RootOrder
+      value: 17
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_Name
+      value: Halloween_house 17
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+  m_IsPrefabParent: 0
+--- !u!4 &533294753 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+  m_PrefabInternal: {fileID: 533294752}
 --- !u!1001 &534297959
 Prefab:
   m_ObjectHideFlags: 0
@@ -920,6 +1749,60 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a760ca4bfe6104613a3c52658fee0b6b, type: 2}
   m_IsPrefabParent: 0
+--- !u!1001 &537476171
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 922177963}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 35.5309982
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.16899991
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -5.31209993
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: .707106829
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: .707106709
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_Name
+      value: Halloween_house 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.25348043
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+  m_IsPrefabParent: 0
+--- !u!4 &537476172 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+  m_PrefabInternal: {fileID: 537476171}
 --- !u!1001 &546130687
 Prefab:
   m_ObjectHideFlags: 0
@@ -957,7 +1840,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400010, guid: fdeba604e76790e4d9cbdf52bc2ef978, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 400010, guid: fdeba604e76790e4d9cbdf52bc2ef978, type: 3}
       propertyPath: m_LocalScale.x
@@ -1606,7 +2489,7 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: fdeba604e76790e4d9cbdf52bc2ef978, type: 3}
   m_IsPrefabParent: 0
---- !u!1 &546130688
+--- !u!1 &546130688 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 100010, guid: fdeba604e76790e4d9cbdf52bc2ef978, type: 3}
   m_PrefabInternal: {fileID: 546130687}
@@ -1622,6 +2505,108 @@ MeshCollider:
   serializedVersion: 2
   m_Convex: 0
   m_Mesh: {fileID: 4300000, guid: fdeba604e76790e4d9cbdf52bc2ef978, type: 3}
+--- !u!1001 &555944806
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 479046674}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -42.7999992
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.20000005
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -5.30000019
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: .707106829
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: .707106709
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_RootOrder
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_Name
+      value: Halloween_house 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.20788026
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+  m_IsPrefabParent: 0
+--- !u!4 &555944807 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+  m_PrefabInternal: {fileID: 555944806}
+--- !u!1 &565587492
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 565587493}
+  - 33: {fileID: 565587495}
+  - 65: {fileID: 565587494}
+  m_Layer: 0
+  m_Name: Wall
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &565587493
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 565587492}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -38.2491493, y: -3.49476027, z: -45.656498}
+  m_LocalScale: {x: 116.657005, y: 8.36582661, z: .587807834}
+  m_Children: []
+  m_Father: {fileID: 338945750}
+  m_RootOrder: 4
+--- !u!65 &565587494
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 565587492}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!33 &565587495
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 565587492}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &595882018
 GameObject:
   m_ObjectHideFlags: 0
@@ -1677,10 +2662,10 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 595882018}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -8.46909332, y: 6.69897509, z: 13.5406876}
+  m_LocalPosition: {x: 36.8649139, y: 19.3838921, z: -35.057045}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 474517069}
+  m_Father: {fileID: 668291130}
   m_RootOrder: 3
 --- !u!1 &606689400
 GameObject:
@@ -1737,20 +2722,66 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 606689400}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 10.9509068, y: 6.69897509, z: -.359313011}
+  m_LocalPosition: {x: 56.2849121, y: 19.3838921, z: -48.9570465}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 474517069}
+  m_Father: {fileID: 668291130}
   m_RootOrder: 17
---- !u!4 &617404435
+--- !u!4 &617404435 stripped
 Transform:
   m_PrefabParentObject: {fileID: 489844, guid: 1a42e63b70d5d0446b60edeac5c24a38, type: 2}
   m_PrefabInternal: {fileID: 341933688}
---- !u!4 &617678094
+--- !u!4 &617678094 stripped
 Transform:
   m_PrefabParentObject: {fileID: 487656, guid: a760ca4bfe6104613a3c52658fee0b6b, type: 2}
   m_PrefabInternal: {fileID: 764576094}
---- !u!4 &673369947
+--- !u!1 &668291129
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 668291130}
+  m_Layer: 0
+  m_Name: Lights
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &668291130
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 668291129}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -45.3340073, y: -12.6849174, z: 48.5977325}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 467983045}
+  - {fileID: 191363419}
+  - {fileID: 2078533711}
+  - {fileID: 595882020}
+  - {fileID: 1448764526}
+  - {fileID: 746071311}
+  - {fileID: 294820524}
+  - {fileID: 367499283}
+  - {fileID: 320043357}
+  - {fileID: 799456082}
+  - {fileID: 2019203676}
+  - {fileID: 327289673}
+  - {fileID: 949792667}
+  - {fileID: 1557760329}
+  - {fileID: 754800082}
+  - {fileID: 1045367704}
+  - {fileID: 1026973470}
+  - {fileID: 606689402}
+  - {fileID: 1402528641}
+  m_Father: {fileID: 474517069}
+  m_RootOrder: 0
+--- !u!4 &673369947 stripped
 Transform:
   m_PrefabParentObject: {fileID: 489844, guid: 1a42e63b70d5d0446b60edeac5c24a38, type: 2}
   m_PrefabInternal: {fileID: 1309198870}
@@ -1781,6 +2812,56 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2
+--- !u!1001 &687225387
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 700618884}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 47.0610542
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.16904068
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2.75214005
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_Name
+      value: Halloween_house 7
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+  m_IsPrefabParent: 0
+--- !u!4 &687225388 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+  m_PrefabInternal: {fileID: 687225387}
 --- !u!1001 &697982135
 Prefab:
   m_ObjectHideFlags: 0
@@ -1835,6 +2916,150 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a3a4a281db73ad4489f76435325cc173, type: 3}
   m_IsPrefabParent: 0
+--- !u!1 &700618883
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 700618884}
+  m_Layer: 0
+  m_Name: BoundryWall 3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &700618884
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 700618883}
+  m_LocalRotation: {x: 0, y: -.707106829, z: 0, w: .707106709}
+  m_LocalPosition: {x: 15.2308502, y: -5.03476048, z: 3.12350082}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 687225388}
+  - {fileID: 1123391334}
+  - {fileID: 23646707}
+  - {fileID: 1182192441}
+  - {fileID: 931900509}
+  - {fileID: 1067419683}
+  - {fileID: 2013789128}
+  - {fileID: 1252484465}
+  - {fileID: 31539107}
+  - {fileID: 1875182423}
+  - {fileID: 2142877031}
+  - {fileID: 1341169594}
+  - {fileID: 1615971192}
+  - {fileID: 843334931}
+  - {fileID: 1148097260}
+  - {fileID: 1535024651}
+  - {fileID: 846993259}
+  m_Father: {fileID: 338945750}
+  m_RootOrder: 0
+--- !u!1001 &710464984
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 237276805}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -36.2999992
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.20000005
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2.79999995
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_RootOrder
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_Name
+      value: Halloween_house 11
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+  m_IsPrefabParent: 0
+--- !u!4 &710464985 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+  m_PrefabInternal: {fileID: 710464984}
+--- !u!1001 &722280301
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 922177963}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 011c7693fd2388048be7138e60e35ddf, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -8.95894814
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 011c7693fd2388048be7138e60e35ddf, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.16904068
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 011c7693fd2388048be7138e60e35ddf, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -7.03214264
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 011c7693fd2388048be7138e60e35ddf, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 011c7693fd2388048be7138e60e35ddf, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: .707106829
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 011c7693fd2388048be7138e60e35ddf, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 011c7693fd2388048be7138e60e35ddf, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: .707106709
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 011c7693fd2388048be7138e60e35ddf, type: 3}
+      propertyPath: m_RootOrder
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 011c7693fd2388048be7138e60e35ddf, type: 3}
+      propertyPath: m_Name
+      value: Halloween_church 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 011c7693fd2388048be7138e60e35ddf, type: 3}
+  m_IsPrefabParent: 0
+--- !u!4 &722280302 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400000, guid: 011c7693fd2388048be7138e60e35ddf, type: 3}
+  m_PrefabInternal: {fileID: 722280301}
 --- !u!1001 &731676882
 Prefab:
   m_ObjectHideFlags: 0
@@ -1909,6 +3134,60 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a760ca4bfe6104613a3c52658fee0b6b, type: 2}
   m_IsPrefabParent: 0
+--- !u!1001 &731980293
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 922177963}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -13.3000002
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.20000005
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -5.30000019
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: .707106829
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: .707106709
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_Name
+      value: Halloween_house 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.2309823
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+  m_IsPrefabParent: 0
+--- !u!4 &731980294 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+  m_PrefabInternal: {fileID: 731980293}
 --- !u!1 &746071309
 GameObject:
   m_ObjectHideFlags: 0
@@ -1964,12 +3243,12 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 746071309}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -22.1790943, y: 6.69897509, z: 4.78068686}
+  m_LocalPosition: {x: 23.1549129, y: 19.3838921, z: -43.8170471}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 474517069}
+  m_Father: {fileID: 668291130}
   m_RootOrder: 5
---- !u!4 &751529384
+--- !u!4 &751529384 stripped
 Transform:
   m_PrefabParentObject: {fileID: 443588, guid: 373a78178ecef4d6c8c3b5996a43172b, type: 2}
   m_PrefabInternal: {fileID: 1918860317}
@@ -2028,10 +3307,10 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 754800080}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -9.43709278, y: 6.8289752, z: -19.8943138}
+  m_LocalPosition: {x: 35.8969154, y: 19.5138931, z: -68.4920502}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 474517069}
+  m_Father: {fileID: 668291130}
   m_RootOrder: 14
 --- !u!1001 &764576094
 Prefab:
@@ -2107,7 +3386,153 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a760ca4bfe6104613a3c52658fee0b6b, type: 2}
   m_IsPrefabParent: 0
---- !u!1 &791731710
+--- !u!1001 &767211726
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 479046674}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 011c7693fd2388048be7138e60e35ddf, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -25.7999992
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 011c7693fd2388048be7138e60e35ddf, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.20000005
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 011c7693fd2388048be7138e60e35ddf, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -7
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 011c7693fd2388048be7138e60e35ddf, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 011c7693fd2388048be7138e60e35ddf, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: .707106829
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 011c7693fd2388048be7138e60e35ddf, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 011c7693fd2388048be7138e60e35ddf, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: .707106709
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 011c7693fd2388048be7138e60e35ddf, type: 3}
+      propertyPath: m_RootOrder
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 011c7693fd2388048be7138e60e35ddf, type: 3}
+      propertyPath: m_Name
+      value: Halloween_church 3
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 011c7693fd2388048be7138e60e35ddf, type: 3}
+  m_IsPrefabParent: 0
+--- !u!4 &767211727 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400000, guid: 011c7693fd2388048be7138e60e35ddf, type: 3}
+  m_PrefabInternal: {fileID: 767211726}
+--- !u!1001 &786313145
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 237276805}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 29.8010521
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.16904068
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2.75214005
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_Name
+      value: Halloween_house 6
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+  m_IsPrefabParent: 0
+--- !u!4 &786313146 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+  m_PrefabInternal: {fileID: 786313145}
+--- !u!1001 &790087548
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 922177963}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 011c7693fd2388048be7138e60e35ddf, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 40.2610512
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 011c7693fd2388048be7138e60e35ddf, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.16904068
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 011c7693fd2388048be7138e60e35ddf, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -7.03214264
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 011c7693fd2388048be7138e60e35ddf, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 011c7693fd2388048be7138e60e35ddf, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: .707106829
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 011c7693fd2388048be7138e60e35ddf, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 011c7693fd2388048be7138e60e35ddf, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: .707106709
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 011c7693fd2388048be7138e60e35ddf, type: 3}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 011c7693fd2388048be7138e60e35ddf, type: 3}
+  m_IsPrefabParent: 0
+--- !u!4 &790087549 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400000, guid: 011c7693fd2388048be7138e60e35ddf, type: 3}
+  m_PrefabInternal: {fileID: 790087548}
+--- !u!1 &791731710 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 117822, guid: 1a42e63b70d5d0446b60edeac5c24a38, type: 2}
   m_PrefabInternal: {fileID: 807564470}
@@ -2180,10 +3605,10 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 799456080}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -23.3990936, y: 6.69897509, z: -9.35931301}
+  m_LocalPosition: {x: 21.9349136, y: 19.3838921, z: -57.9570465}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 474517069}
+  m_Father: {fileID: 668291130}
   m_RootOrder: 9
 --- !u!1001 &807564470
 Prefab:
@@ -2299,6 +3724,158 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1a42e63b70d5d0446b60edeac5c24a38, type: 2}
   m_IsPrefabParent: 0
+--- !u!1001 &843334930
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 700618884}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -30.6000004
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.20000005
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -5.30000019
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: .707106829
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: .707106709
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_RootOrder
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_Name
+      value: Halloween_house 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.23972929
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+  m_IsPrefabParent: 0
+--- !u!4 &843334931 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+  m_PrefabInternal: {fileID: 843334930}
+--- !u!1001 &846993258
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 700618884}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 011c7693fd2388048be7138e60e35ddf, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -25.7999992
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 011c7693fd2388048be7138e60e35ddf, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.20000005
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 011c7693fd2388048be7138e60e35ddf, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -7
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 011c7693fd2388048be7138e60e35ddf, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 011c7693fd2388048be7138e60e35ddf, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: .707106829
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 011c7693fd2388048be7138e60e35ddf, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 011c7693fd2388048be7138e60e35ddf, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: .707106709
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 011c7693fd2388048be7138e60e35ddf, type: 3}
+      propertyPath: m_RootOrder
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 011c7693fd2388048be7138e60e35ddf, type: 3}
+      propertyPath: m_Name
+      value: Halloween_church 3
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 011c7693fd2388048be7138e60e35ddf, type: 3}
+  m_IsPrefabParent: 0
+--- !u!4 &846993259 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400000, guid: 011c7693fd2388048be7138e60e35ddf, type: 3}
+  m_PrefabInternal: {fileID: 846993258}
+--- !u!1 &891294221
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 891294222}
+  - 33: {fileID: 891294224}
+  - 65: {fileID: 891294223}
+  m_Layer: 0
+  m_Name: Wall 3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &891294222
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 891294221}
+  m_LocalRotation: {x: 0, y: .707106829, z: 0, w: .707106709}
+  m_LocalPosition: {x: 16.2900009, y: -3.5, z: 6.9000001}
+  m_LocalScale: {x: 116.656998, y: 8.36582661, z: .587807715}
+  m_Children: []
+  m_Father: {fileID: 338945750}
+  m_RootOrder: 7
+--- !u!65 &891294223
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 891294221}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!33 &891294224
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 891294221}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1001 &909200138
 Prefab:
   m_ObjectHideFlags: 0
@@ -2349,7 +3926,7 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7dd19dce55ca4964883cd4bed9859419, type: 2}
   m_IsPrefabParent: 0
---- !u!1 &909200139
+--- !u!1 &909200139 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 161324, guid: 7dd19dce55ca4964883cd4bed9859419, type: 2}
   m_PrefabInternal: {fileID: 909200138}
@@ -2365,6 +3942,200 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cb: {fileID: 0}
+--- !u!1001 &922141845
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 479046674}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -19
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.20000005
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2.79999995
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_RootOrder
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_Name
+      value: Halloween_house 10
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+  m_IsPrefabParent: 0
+--- !u!4 &922141846 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+  m_PrefabInternal: {fileID: 922141845}
+--- !u!1 &922177962
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 922177963}
+  m_Layer: 0
+  m_Name: BoundryWall 2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &922177963
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 922177962}
+  m_LocalRotation: {x: 0, y: .707106829, z: 0, w: .707106709}
+  m_LocalPosition: {x: -92.5691528, y: -5.03476048, z: 3.12350082}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1334258536}
+  - {fileID: 1112254615}
+  - {fileID: 537476172}
+  - {fileID: 999871455}
+  - {fileID: 529685107}
+  - {fileID: 1554497789}
+  - {fileID: 1293599237}
+  - {fileID: 1871279355}
+  - {fileID: 722280302}
+  - {fileID: 790087549}
+  - {fileID: 731980294}
+  - {fileID: 2008448713}
+  - {fileID: 444842929}
+  - {fileID: 31500896}
+  - {fileID: 1275201827}
+  - {fileID: 971671135}
+  - {fileID: 267551043}
+  m_Father: {fileID: 338945750}
+  m_RootOrder: 1
+--- !u!1001 &931900508
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 700618884}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 17.6110516
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.16904068
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2.75214005
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_Name
+      value: Halloween_house 3
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+  m_IsPrefabParent: 0
+--- !u!4 &931900509 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+  m_PrefabInternal: {fileID: 931900508}
+--- !u!1001 &944212514
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 479046674}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -36.2999992
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.20000005
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2.79999995
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_RootOrder
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_Name
+      value: Halloween_house 11
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+  m_IsPrefabParent: 0
+--- !u!4 &944212515 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+  m_PrefabInternal: {fileID: 944212514}
 --- !u!1 &949792665
 GameObject:
   m_ObjectHideFlags: 0
@@ -2420,11 +4191,165 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 949792665}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.3890934, y: 6.8289752, z: -20.7093124}
+  m_LocalPosition: {x: 38.9449158, y: 19.5138931, z: -69.307045}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 474517069}
+  m_Father: {fileID: 668291130}
   m_RootOrder: 12
+--- !u!1001 &971671134
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 922177963}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -48.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.20000005
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2.79999995
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_RootOrder
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_Name
+      value: Halloween_house 14
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+  m_IsPrefabParent: 0
+--- !u!4 &971671135 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+  m_PrefabInternal: {fileID: 971671134}
+--- !u!1001 &993250012
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 237276805}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.11894846
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.16904068
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2.75214005
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_Name
+      value: Halloween_house 2
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+  m_IsPrefabParent: 0
+--- !u!4 &993250013 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+  m_PrefabInternal: {fileID: 993250012}
+--- !u!1001 &999871454
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 922177963}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 23.3409996
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.16899991
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -5.31209993
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: .707106829
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: .707106709
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_Name
+      value: Halloween_house 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.24637759
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+  m_IsPrefabParent: 0
+--- !u!4 &999871455 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+  m_PrefabInternal: {fileID: 999871454}
 --- !u!1 &1026973468
 GameObject:
   m_ObjectHideFlags: 0
@@ -2480,11 +4405,59 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1026973468}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 9.8609066, y: 6.69897509, z: -6.66931343}
+  m_LocalPosition: {x: 55.1949158, y: 19.3838921, z: -55.2670441}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 474517069}
+  m_Father: {fileID: 668291130}
   m_RootOrder: 16
+--- !u!1 &1031347439
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1031347440}
+  - 33: {fileID: 1031347442}
+  - 65: {fileID: 1031347441}
+  m_Layer: 0
+  m_Name: Wall 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1031347440
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1031347439}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -38.2000008, y: -3.5, z: 53.6699982}
+  m_LocalScale: {x: 116.657005, y: 8.36582661, z: .587807834}
+  m_Children: []
+  m_Father: {fileID: 338945750}
+  m_RootOrder: 5
+--- !u!65 &1031347441
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1031347439}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!33 &1031347442
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1031347439}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &1045367702
 GameObject:
   m_ObjectHideFlags: 0
@@ -2540,11 +4513,107 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1045367702}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 10.4309072, y: 6.69897509, z: -3.45931339}
+  m_LocalPosition: {x: 55.7649155, y: 19.3838921, z: -52.057045}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 474517069}
+  m_Father: {fileID: 668291130}
   m_RootOrder: 15
+--- !u!1001 &1063168515
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 237276805}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 011c7693fd2388048be7138e60e35ddf, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 40.2610512
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 011c7693fd2388048be7138e60e35ddf, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.16904068
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 011c7693fd2388048be7138e60e35ddf, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -7.03214264
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 011c7693fd2388048be7138e60e35ddf, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 011c7693fd2388048be7138e60e35ddf, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: .707106829
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 011c7693fd2388048be7138e60e35ddf, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 011c7693fd2388048be7138e60e35ddf, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: .707106709
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 011c7693fd2388048be7138e60e35ddf, type: 3}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 011c7693fd2388048be7138e60e35ddf, type: 3}
+  m_IsPrefabParent: 0
+--- !u!4 &1063168516 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400000, guid: 011c7693fd2388048be7138e60e35ddf, type: 3}
+  m_PrefabInternal: {fileID: 1063168515}
+--- !u!1001 &1067419682
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 700618884}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.11894846
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.16904068
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2.75214005
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_Name
+      value: Halloween_house 2
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+  m_IsPrefabParent: 0
+--- !u!4 &1067419683 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+  m_PrefabInternal: {fileID: 1067419682}
 --- !u!1001 &1087781845
 Prefab:
   m_ObjectHideFlags: 0
@@ -2591,6 +4660,160 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 373a78178ecef4d6c8c3b5996a43172b, type: 2}
   m_IsPrefabParent: 0
+--- !u!1001 &1088511371
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 479046674}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.11894846
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.16904068
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2.75214005
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_Name
+      value: Halloween_house 2
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+  m_IsPrefabParent: 0
+--- !u!4 &1088511372 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+  m_PrefabInternal: {fileID: 1088511371}
+--- !u!1001 &1104600177
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 237276805}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -13.3000002
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.20000005
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -5.30000019
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: .707106829
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: .707106709
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_RootOrder
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_Name
+      value: Halloween_house 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.23371542
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+  m_IsPrefabParent: 0
+--- !u!4 &1104600178 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+  m_PrefabInternal: {fileID: 1104600177}
+--- !u!1001 &1112254614
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 922177963}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 29.8010521
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.16904068
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2.75214005
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_Name
+      value: Halloween_house 6
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+  m_IsPrefabParent: 0
+--- !u!4 &1112254615 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+  m_PrefabInternal: {fileID: 1112254614}
 --- !u!1001 &1118885328
 Prefab:
   m_ObjectHideFlags: 0
@@ -2628,7 +4851,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 480138, guid: 6c76f601f335a47ec87c6696dcca4a36, type: 2}
       propertyPath: m_RootOrder
-      value: 12
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 138990, guid: 6c76f601f335a47ec87c6696dcca4a36, type: 2}
       propertyPath: m_Name
@@ -2691,6 +4914,106 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a3a4a281db73ad4489f76435325cc173, type: 3}
   m_IsPrefabParent: 0
+--- !u!1001 &1123391333
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 700618884}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 29.8010521
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.16904068
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2.75214005
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_Name
+      value: Halloween_house 6
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+  m_IsPrefabParent: 0
+--- !u!4 &1123391334 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+  m_PrefabInternal: {fileID: 1123391333}
+--- !u!1001 &1128902361
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 479046674}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -48.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.20000005
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2.79999995
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_RootOrder
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_Name
+      value: Halloween_house 14
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+  m_IsPrefabParent: 0
+--- !u!4 &1128902362 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+  m_PrefabInternal: {fileID: 1128902361}
 --- !u!1001 &1129314751
 Prefab:
   m_ObjectHideFlags: 0
@@ -2773,10 +5096,118 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b575d144e5cef4c379b2bec1d6e9fdb8, type: 2}
   m_IsPrefabParent: 0
---- !u!4 &1155615403
+--- !u!1001 &1148097259
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 700618884}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -42.7999992
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.20000005
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -5.30000019
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: .707106829
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: .707106709
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_RootOrder
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_Name
+      value: Halloween_house 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.23972929
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+  m_IsPrefabParent: 0
+--- !u!4 &1148097260 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+  m_PrefabInternal: {fileID: 1148097259}
+--- !u!4 &1155615403 stripped
 Transform:
   m_PrefabParentObject: {fileID: 489844, guid: 1a42e63b70d5d0446b60edeac5c24a38, type: 2}
   m_PrefabInternal: {fileID: 807564470}
+--- !u!1001 &1182192440
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 700618884}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 23.3409996
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.16899991
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -5.31209993
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: .707106829
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: .707106709
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_Name
+      value: Halloween_house 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.12759101
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+  m_IsPrefabParent: 0
+--- !u!4 &1182192441 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+  m_PrefabInternal: {fileID: 1182192440}
 --- !u!1001 &1244190193
 Prefab:
   m_ObjectHideFlags: 0
@@ -2814,7 +5245,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 471196, guid: 7dd19dce55ca4964883cd4bed9859419, type: 2}
       propertyPath: m_RootOrder
-      value: 7
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 161324, guid: 7dd19dce55ca4964883cd4bed9859419, type: 2}
       propertyPath: m_TagString
@@ -2827,7 +5258,215 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7dd19dce55ca4964883cd4bed9859419, type: 2}
   m_IsPrefabParent: 0
---- !u!1 &1275568676
+--- !u!1001 &1252484464
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 700618884}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 11.5209999
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.16899991
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -5.31209993
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: .707106829
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: .707106709
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.10121357
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+  m_IsPrefabParent: 0
+--- !u!4 &1252484465 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+  m_PrefabInternal: {fileID: 1252484464}
+--- !u!1001 &1257705193
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 237276805}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 17.6110516
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.16904068
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2.75214005
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_Name
+      value: Halloween_house 3
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+  m_IsPrefabParent: 0
+--- !u!4 &1257705194 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+  m_PrefabInternal: {fileID: 1257705193}
+--- !u!1001 &1266730488
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 479046674}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 52.7910004
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.16899991
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -5.31209993
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: .707106829
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: .707106709
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_Name
+      value: Halloween_house 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.16042912
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+  m_IsPrefabParent: 0
+--- !u!4 &1266730489 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+  m_PrefabInternal: {fileID: 1266730488}
+--- !u!1001 &1275201826
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 922177963}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -42.7999992
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.20000005
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -5.30000019
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: .707106829
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: .707106709
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_RootOrder
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_Name
+      value: Halloween_house 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.2309823
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+  m_IsPrefabParent: 0
+--- !u!4 &1275201827 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+  m_PrefabInternal: {fileID: 1275201826}
+--- !u!1 &1275568676 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 117822, guid: 1a42e63b70d5d0446b60edeac5c24a38, type: 2}
   m_PrefabInternal: {fileID: 1309198870}
@@ -2845,6 +5484,154 @@ MonoBehaviour:
   controllerName: C4_
   prefabStun: {fileID: 150228, guid: 6fdedf95da1714b378aaa0bd15a9274c, type: 2}
   stunBombForce: 3
+--- !u!1001 &1282322690
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 479046674}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 17.6110516
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.16904068
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2.75214005
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_Name
+      value: Halloween_house 3
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+  m_IsPrefabParent: 0
+--- !u!4 &1282322691 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+  m_PrefabInternal: {fileID: 1282322690}
+--- !u!1001 &1293599236
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 922177963}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 5.79105186
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.16904068
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2.75214005
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_Name
+      value: Halloween_house 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+  m_IsPrefabParent: 0
+--- !u!4 &1293599237 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+  m_PrefabInternal: {fileID: 1293599236}
+--- !u!1 &1298853105
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1298853106}
+  - 33: {fileID: 1298853108}
+  - 65: {fileID: 1298853107}
+  m_Layer: 0
+  m_Name: Wall 2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1298853106
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1298853105}
+  m_LocalRotation: {x: 0, y: .707106829, z: 0, w: .707106709}
+  m_LocalPosition: {x: -93.6500015, y: -3.5, z: 6.9000001}
+  m_LocalScale: {x: 116.657005, y: 8.36582661, z: .587807834}
+  m_Children: []
+  m_Father: {fileID: 338945750}
+  m_RootOrder: 6
+--- !u!65 &1298853107
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1298853105}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!33 &1298853108
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1298853105}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1001 &1309198870
 Prefab:
   m_ObjectHideFlags: 0
@@ -2939,10 +5726,160 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1a42e63b70d5d0446b60edeac5c24a38, type: 2}
   m_IsPrefabParent: 0
---- !u!4 &1332048689
+--- !u!4 &1332048689 stripped
 Transform:
   m_PrefabParentObject: {fileID: 487656, guid: a760ca4bfe6104613a3c52658fee0b6b, type: 2}
   m_PrefabInternal: {fileID: 1416817359}
+--- !u!1001 &1334258535
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 922177963}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 47.0610542
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.16904068
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2.75214005
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_Name
+      value: Halloween_house 7
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+  m_IsPrefabParent: 0
+--- !u!4 &1334258536 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+  m_PrefabInternal: {fileID: 1334258535}
+--- !u!1001 &1341169593
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 700618884}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -19
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.20000005
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2.79999995
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_RootOrder
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_Name
+      value: Halloween_house 10
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+  m_IsPrefabParent: 0
+--- !u!4 &1341169594 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+  m_PrefabInternal: {fileID: 1341169593}
+--- !u!1001 &1366095946
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 479046674}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 29.8010521
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.16904068
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2.75214005
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_Name
+      value: Halloween_house 6
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+  m_IsPrefabParent: 0
+--- !u!4 &1366095947 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+  m_PrefabInternal: {fileID: 1366095946}
 --- !u!1001 &1382649883
 Prefab:
   m_ObjectHideFlags: 0
@@ -2993,7 +5930,7 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7dd19dce55ca4964883cd4bed9859419, type: 2}
   m_IsPrefabParent: 0
---- !u!1 &1382649884
+--- !u!1 &1382649884 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 161324, guid: 7dd19dce55ca4964883cd4bed9859419, type: 2}
   m_PrefabInternal: {fileID: 1382649883}
@@ -3009,6 +5946,56 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cb: {fileID: 0}
+--- !u!1001 &1396989477
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 237276805}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 011c7693fd2388048be7138e60e35ddf, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -8.95894814
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 011c7693fd2388048be7138e60e35ddf, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.16904068
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 011c7693fd2388048be7138e60e35ddf, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -7.03214264
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 011c7693fd2388048be7138e60e35ddf, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 011c7693fd2388048be7138e60e35ddf, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: .707106829
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 011c7693fd2388048be7138e60e35ddf, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 011c7693fd2388048be7138e60e35ddf, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: .707106709
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 011c7693fd2388048be7138e60e35ddf, type: 3}
+      propertyPath: m_RootOrder
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 011c7693fd2388048be7138e60e35ddf, type: 3}
+      propertyPath: m_Name
+      value: Halloween_church 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 011c7693fd2388048be7138e60e35ddf, type: 3}
+  m_IsPrefabParent: 0
+--- !u!4 &1396989478 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400000, guid: 011c7693fd2388048be7138e60e35ddf, type: 3}
+  m_PrefabInternal: {fileID: 1396989477}
 --- !u!1 &1402528639
 GameObject:
   m_ObjectHideFlags: 0
@@ -3064,10 +6051,10 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1402528639}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 9.28090668, y: 6.69897509, z: 3.49068689}
+  m_LocalPosition: {x: 54.6149139, y: 19.3838921, z: -45.1070442}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 474517069}
+  m_Father: {fileID: 668291130}
   m_RootOrder: 18
 --- !u!1001 &1416817359
 Prefab:
@@ -3143,6 +6130,60 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a760ca4bfe6104613a3c52658fee0b6b, type: 2}
   m_IsPrefabParent: 0
+--- !u!1001 &1438565831
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 479046674}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 23.3409996
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.16899991
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -5.31209993
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: .707106829
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: .707106709
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_Name
+      value: Halloween_house 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.19932294
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+  m_IsPrefabParent: 0
+--- !u!4 &1438565832 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+  m_PrefabInternal: {fileID: 1438565831}
 --- !u!1001 &1444286399
 Prefab:
   m_ObjectHideFlags: 0
@@ -3272,16 +6313,170 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1448764524}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -12.5890932, y: 6.69897509, z: 13.2206869}
+  m_LocalPosition: {x: 32.744915, y: 19.3838921, z: -35.3770447}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 474517069}
+  m_Father: {fileID: 668291130}
   m_RootOrder: 4
---- !u!4 &1482714978
+--- !u!4 &1482714978 stripped
 Transform:
   m_PrefabParentObject: {fileID: 443588, guid: 373a78178ecef4d6c8c3b5996a43172b, type: 2}
   m_PrefabInternal: {fileID: 299059209}
---- !u!1 &1550890645
+--- !u!1001 &1483330334
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 237276805}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 011c7693fd2388048be7138e60e35ddf, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -25.7999992
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 011c7693fd2388048be7138e60e35ddf, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.20000005
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 011c7693fd2388048be7138e60e35ddf, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -7
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 011c7693fd2388048be7138e60e35ddf, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 011c7693fd2388048be7138e60e35ddf, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: .707106829
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 011c7693fd2388048be7138e60e35ddf, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 011c7693fd2388048be7138e60e35ddf, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: .707106709
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 011c7693fd2388048be7138e60e35ddf, type: 3}
+      propertyPath: m_RootOrder
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 011c7693fd2388048be7138e60e35ddf, type: 3}
+      propertyPath: m_Name
+      value: Halloween_church 3
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 011c7693fd2388048be7138e60e35ddf, type: 3}
+  m_IsPrefabParent: 0
+--- !u!4 &1483330335 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400000, guid: 011c7693fd2388048be7138e60e35ddf, type: 3}
+  m_PrefabInternal: {fileID: 1483330334}
+--- !u!1001 &1495776068
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 479046674}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -30.6000004
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.20000005
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -5.30000019
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: .707106829
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: .707106709
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_RootOrder
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_Name
+      value: Halloween_house 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.20788026
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+  m_IsPrefabParent: 0
+--- !u!4 &1495776069 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+  m_PrefabInternal: {fileID: 1495776068}
+--- !u!1001 &1535024650
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 700618884}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -48.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.20000005
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2.79999995
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_RootOrder
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_Name
+      value: Halloween_house 14
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+  m_IsPrefabParent: 0
+--- !u!4 &1535024651 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+  m_PrefabInternal: {fileID: 1535024650}
+--- !u!1 &1550890645 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 161324, guid: 7dd19dce55ca4964883cd4bed9859419, type: 2}
   m_PrefabInternal: {fileID: 1244190193}
@@ -3306,6 +6501,56 @@ MonoBehaviour:
   WeightPlayer2: {fileID: 2800000, guid: 0e4251807d3d1b4448e59d787a23b526, type: 3}
   WeightPlayer3: {fileID: 2800000, guid: 306392e75a2551045b7acaa3724d5927, type: 3}
   WeightPlayer4: {fileID: 2800000, guid: f0db7c76b1cb52f40aeeeb2705edccf5, type: 3}
+--- !u!1001 &1554497788
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 922177963}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.11894846
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.16904068
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2.75214005
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_Name
+      value: Halloween_house 2
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+  m_IsPrefabParent: 0
+--- !u!4 &1554497789 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+  m_PrefabInternal: {fileID: 1554497788}
 --- !u!1 &1557760327
 GameObject:
   m_ObjectHideFlags: 0
@@ -3361,11 +6606,111 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1557760327}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -12.6890926, y: 6.69897509, z: -19.0593147}
+  m_LocalPosition: {x: 32.6449127, y: 19.3838921, z: -67.6570435}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 474517069}
+  m_Father: {fileID: 668291130}
   m_RootOrder: 13
+--- !u!1001 &1558333238
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 479046674}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 5.79105186
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.16904068
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2.75214005
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_Name
+      value: Halloween_house 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+  m_IsPrefabParent: 0
+--- !u!4 &1558333239 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+  m_PrefabInternal: {fileID: 1558333238}
+--- !u!1001 &1615971191
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 700618884}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -36.2999992
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.20000005
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2.79999995
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_RootOrder
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_Name
+      value: Halloween_house 11
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+  m_IsPrefabParent: 0
+--- !u!4 &1615971192 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+  m_PrefabInternal: {fileID: 1615971191}
 --- !u!1 &1628773484
 GameObject:
   m_ObjectHideFlags: 0
@@ -3497,6 +6842,60 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 373a78178ecef4d6c8c3b5996a43172b, type: 2}
   m_IsPrefabParent: 0
+--- !u!1001 &1688331790
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 237276805}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 23.3409996
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.16899991
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -5.31209993
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: .707106829
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: .707106709
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_Name
+      value: Halloween_house 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.20313704
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+  m_IsPrefabParent: 0
+--- !u!4 &1688331791 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+  m_PrefabInternal: {fileID: 1688331790}
 --- !u!1001 &1696004324
 Prefab:
   m_ObjectHideFlags: 0
@@ -3534,7 +6933,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 453854, guid: 6bab90d6b42124a7cb035297a27ca692, type: 2}
       propertyPath: m_RootOrder
-      value: 11
+      value: 14
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 6bab90d6b42124a7cb035297a27ca692, type: 2}
@@ -3585,6 +6984,110 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 373a78178ecef4d6c8c3b5996a43172b, type: 2}
   m_IsPrefabParent: 0
+--- !u!1001 &1748215236
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 479046674}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 47.0610542
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.16904068
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2.75214005
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_Name
+      value: Halloween_house 7
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+  m_IsPrefabParent: 0
+--- !u!4 &1748215237 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+  m_PrefabInternal: {fileID: 1748215236}
+--- !u!1001 &1750583271
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 237276805}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -42.7999992
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.20000005
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -5.30000019
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: .707106829
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: .707106709
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_RootOrder
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_Name
+      value: Halloween_house 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.23687696
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+  m_IsPrefabParent: 0
+--- !u!4 &1750583272 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+  m_PrefabInternal: {fileID: 1750583271}
 --- !u!1 &1762288932
 GameObject:
   m_ObjectHideFlags: 0
@@ -3616,7 +7119,53 @@ Transform:
   - {fileID: 617678094}
   - {fileID: 1869466755}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
+--- !u!1001 &1798235711
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 479046674}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 011c7693fd2388048be7138e60e35ddf, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 40.2610512
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 011c7693fd2388048be7138e60e35ddf, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.16904068
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 011c7693fd2388048be7138e60e35ddf, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -7.03214264
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 011c7693fd2388048be7138e60e35ddf, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 011c7693fd2388048be7138e60e35ddf, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: .707106829
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 011c7693fd2388048be7138e60e35ddf, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 011c7693fd2388048be7138e60e35ddf, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: .707106709
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 011c7693fd2388048be7138e60e35ddf, type: 3}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 011c7693fd2388048be7138e60e35ddf, type: 3}
+  m_IsPrefabParent: 0
+--- !u!4 &1798235712 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400000, guid: 011c7693fd2388048be7138e60e35ddf, type: 3}
+  m_PrefabInternal: {fileID: 1798235711}
 --- !u!1001 &1831464867
 Prefab:
   m_ObjectHideFlags: 0
@@ -3663,10 +7212,206 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 373a78178ecef4d6c8c3b5996a43172b, type: 2}
   m_IsPrefabParent: 0
---- !u!4 &1869466755
+--- !u!4 &1869466755 stripped
 Transform:
   m_PrefabParentObject: {fileID: 487656, guid: a760ca4bfe6104613a3c52658fee0b6b, type: 2}
   m_PrefabInternal: {fileID: 534297959}
+--- !u!1001 &1871279354
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 922177963}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 11.5209999
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.16899991
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -5.31209993
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: .707106829
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: .707106709
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.24637759
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+  m_IsPrefabParent: 0
+--- !u!4 &1871279355 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+  m_PrefabInternal: {fileID: 1871279354}
+--- !u!1001 &1874618338
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 479046674}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 011c7693fd2388048be7138e60e35ddf, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -8.95894814
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 011c7693fd2388048be7138e60e35ddf, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.16904068
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 011c7693fd2388048be7138e60e35ddf, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -7.03214264
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 011c7693fd2388048be7138e60e35ddf, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 011c7693fd2388048be7138e60e35ddf, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: .707106829
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 011c7693fd2388048be7138e60e35ddf, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 011c7693fd2388048be7138e60e35ddf, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: .707106709
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 011c7693fd2388048be7138e60e35ddf, type: 3}
+      propertyPath: m_RootOrder
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 011c7693fd2388048be7138e60e35ddf, type: 3}
+      propertyPath: m_Name
+      value: Halloween_church 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 011c7693fd2388048be7138e60e35ddf, type: 3}
+  m_IsPrefabParent: 0
+--- !u!4 &1874618339 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400000, guid: 011c7693fd2388048be7138e60e35ddf, type: 3}
+  m_PrefabInternal: {fileID: 1874618338}
+--- !u!1001 &1875182422
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 700618884}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 011c7693fd2388048be7138e60e35ddf, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 40.2610512
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 011c7693fd2388048be7138e60e35ddf, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.16904068
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 011c7693fd2388048be7138e60e35ddf, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -7.03214264
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 011c7693fd2388048be7138e60e35ddf, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 011c7693fd2388048be7138e60e35ddf, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: .707106829
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 011c7693fd2388048be7138e60e35ddf, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 011c7693fd2388048be7138e60e35ddf, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: .707106709
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 011c7693fd2388048be7138e60e35ddf, type: 3}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 011c7693fd2388048be7138e60e35ddf, type: 3}
+  m_IsPrefabParent: 0
+--- !u!4 &1875182423 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400000, guid: 011c7693fd2388048be7138e60e35ddf, type: 3}
+  m_PrefabInternal: {fileID: 1875182422}
+--- !u!1001 &1877918956
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 479046674}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 11.5209999
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.16899991
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -5.31209993
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: .707106829
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: .707106709
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.19663501
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+  m_IsPrefabParent: 0
+--- !u!4 &1877918957 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+  m_PrefabInternal: {fileID: 1877918956}
 --- !u!1001 &1898027741
 Prefab:
   m_ObjectHideFlags: 0
@@ -3721,6 +7466,106 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a3a4a281db73ad4489f76435325cc173, type: 3}
   m_IsPrefabParent: 0
+--- !u!1001 &1902742659
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 237276805}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -48.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.20000005
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2.79999995
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_RootOrder
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_Name
+      value: Halloween_house 14
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+  m_IsPrefabParent: 0
+--- !u!4 &1902742660 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+  m_PrefabInternal: {fileID: 1902742659}
+--- !u!1001 &1903654979
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 237276805}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 5.79105186
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.16904068
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2.75214005
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_Name
+      value: Halloween_house 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+  m_IsPrefabParent: 0
+--- !u!4 &1903654980 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+  m_PrefabInternal: {fileID: 1903654979}
 --- !u!1001 &1904262148
 Prefab:
   m_ObjectHideFlags: 0
@@ -3821,7 +7666,7 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 373a78178ecef4d6c8c3b5996a43172b, type: 2}
   m_IsPrefabParent: 0
---- !u!1 &1937935741
+--- !u!1 &1937935741 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 117822, guid: 1a42e63b70d5d0446b60edeac5c24a38, type: 2}
   m_PrefabInternal: {fileID: 341933688}
@@ -3889,7 +7734,7 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7dd19dce55ca4964883cd4bed9859419, type: 2}
   m_IsPrefabParent: 0
---- !u!1 &1940141099
+--- !u!1 &1940141099 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 161324, guid: 7dd19dce55ca4964883cd4bed9859419, type: 2}
   m_PrefabInternal: {fileID: 1940141098}
@@ -3905,10 +7750,110 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cb: {fileID: 0}
---- !u!4 &1976508801
+--- !u!4 &1976508801 stripped
 Transform:
   m_PrefabParentObject: {fileID: 443588, guid: 373a78178ecef4d6c8c3b5996a43172b, type: 2}
   m_PrefabInternal: {fileID: 1087781845}
+--- !u!1001 &2008448712
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 922177963}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -19
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.20000005
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2.79999995
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_RootOrder
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_Name
+      value: Halloween_house 10
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+  m_IsPrefabParent: 0
+--- !u!4 &2008448713 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+  m_PrefabInternal: {fileID: 2008448712}
+--- !u!1001 &2013789127
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 700618884}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 5.79105186
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.16904068
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2.75214005
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_Name
+      value: Halloween_house 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+  m_IsPrefabParent: 0
+--- !u!4 &2013789128 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+  m_PrefabInternal: {fileID: 2013789127}
 --- !u!1 &2019203674
 GameObject:
   m_ObjectHideFlags: 0
@@ -3964,10 +7909,10 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2019203674}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.40090656, y: 6.8289752, z: -18.4093132}
+  m_LocalPosition: {x: 46.7349129, y: 19.5138931, z: -67.0070496}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 474517069}
+  m_Father: {fileID: 668291130}
   m_RootOrder: 10
 --- !u!1001 &2019218390
 Prefab:
@@ -4019,7 +7964,7 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7dd19dce55ca4964883cd4bed9859419, type: 2}
   m_IsPrefabParent: 0
---- !u!1 &2019218391
+--- !u!1 &2019218391 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 161324, guid: 7dd19dce55ca4964883cd4bed9859419, type: 2}
   m_PrefabInternal: {fileID: 2019218390}
@@ -4088,6 +8033,60 @@ Prefab:
     - {fileID: 3390414, guid: 43b48ee10fe0d46f48b710d878750380, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: 43b48ee10fe0d46f48b710d878750380, type: 2}
   m_IsPrefabParent: 0
+--- !u!1001 &2037166680
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 237276805}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 52.7910004
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.16899991
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -5.31209993
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: .707106829
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: .707106709
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_Name
+      value: Halloween_house 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.4881469
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+  m_IsPrefabParent: 0
+--- !u!4 &2037166681 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+  m_PrefabInternal: {fileID: 2037166680}
 --- !u!1 &2075167493
 GameObject:
   m_ObjectHideFlags: 0
@@ -4177,10 +8176,10 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2078533709}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.43909359, y: 6.69897509, z: 13.890687}
+  m_LocalPosition: {x: 40.8949127, y: 19.3838921, z: -34.7070465}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 474517069}
+  m_Father: {fileID: 668291130}
   m_RootOrder: 2
 --- !u!1001 &2080914591
 Prefab:
@@ -4224,7 +8223,115 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 373a78178ecef4d6c8c3b5996a43172b, type: 2}
   m_IsPrefabParent: 0
---- !u!4 &2099204653
+--- !u!4 &2099204653 stripped
 Transform:
   m_PrefabParentObject: {fileID: 443588, guid: 373a78178ecef4d6c8c3b5996a43172b, type: 2}
   m_PrefabInternal: {fileID: 1714516239}
+--- !u!1001 &2117081296
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 237276805}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -30.6000004
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.20000005
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -5.30000019
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: .707106829
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: .707106709
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_RootOrder
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_Name
+      value: Halloween_house 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.29996383
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+  m_IsPrefabParent: 0
+--- !u!4 &2117081297 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+  m_PrefabInternal: {fileID: 2117081296}
+--- !u!1001 &2142877030
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 700618884}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -13.3000002
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.20000005
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -5.30000019
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: .707106829
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: .707106709
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_Name
+      value: Halloween_house 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.23972929
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+  m_IsPrefabParent: 0
+--- !u!4 &2142877031 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400000, guid: 57a5a80c3518ba142bd84b87191ecfa8, type: 3}
+  m_PrefabInternal: {fileID: 2142877030}
